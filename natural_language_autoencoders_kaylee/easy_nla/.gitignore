@@ -1,0 +1,47 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Local runs / logs / secrets
+wandb/
+logs/
+tmp/
+.env
+.env.*
+.venv-easy-nla/
+
+# Model weights / checkpoints — never in git
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.gguf
+
+# Data (activations + gold explanations live on disk / HF, not in git)
+*.parquet
+*.nla_meta.yaml
+*.npz
+*.npy
+*.pkl
+data/
+
+# editor / OS / notebook noise
+.ipynb_checkpoints/
+.DS_Store
+# Claude Code local settings + its atomic-write temp files (shared settings.json
+# is not matched, so it can still be committed if you want one).
+.claude/settings.local.json*
+.venv/
+venv/
+
+
+## plan
+plan.md
+plan_gemma_layers.md
+goal.png
+figures

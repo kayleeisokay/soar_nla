@@ -193,6 +193,10 @@ For attribution in academic contexts, please cite this work as
 }
 ```
 
+## Visualization Code
+
+In this forked repo, for experiments in natural_language_autoencoders_kaylee the plotting code can be found [here](https://github.com/kayleeisokay/eleutherai_research).
+
 ## License
 
 Apache-2.0 ([LICENSE](LICENSE)). Released checkpoints additionally inherit the

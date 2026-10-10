@@ -1,0 +1,12 @@
+{
+  "n": 50,
+  "correct": {
+    "baseline": 50,
+    "nla_roundtrip": 48,
+    "paraphrase_medium": 44,
+    "paraphrase_heavy": 46,
+    "mismatch_same_task": 0,
+    "mismatch_cross_task": 0,
+    "random_vec": 1
+  }
+}

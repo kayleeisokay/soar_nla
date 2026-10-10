@@ -1,0 +1,69 @@
+nohup: ignoring input
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:00,  5.38it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:00<00:00, 10.39it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 12.66it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 11.34it/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 94.96it/s]
+Some weights of Gemma3ForCausalLM were not initialized from the model checkpoint at nla-L40/rl_vllm/critic_latest and are newly initialized: ['model.norm.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[1/50] gold='Platinum' explanation='Repetition/continuation pattern: each paragraph is a duplicated copy of the prev'
+[2/50] gold='Guitar' explanation='Repetition/continuation pattern: each paragraph is a duplicated copy of the prev'
+[3/50] gold='Bicycle' explanation='Repetition/continuation pattern: a list of duplicated phrases cycling through "B'
+[4/50] gold='Squirrel' explanation='Repetition/continuation pattern: the text is a humorous Wikipedia-style article '
+[5/50] gold='Market' explanation='Repetition/continuation pattern: the text is a list of repeated search query phr'
+[6/50] gold='Shelf' explanation='Repetition/continuation pattern: the text is a formulaic, repetitive list of she'
+[7/50] gold='Drum' explanation='Repetition/continuation pattern: each paragraph is a duplicated version of the p'
+[8/50] gold='Doorway' explanation='Repetition/continuation pattern: each paragraph is a duplicated version of the p'
+[9/50] gold='Cabinet' explanation='Repetition/continuation pattern: each paragraph is a duplicated version of the p'
+[10/50] gold='Sapphire' explanation='Repetition/continuation pattern: each paragraph is a duplicated copy of the prev'
+[11/50] gold='Dancer' explanation='Repetition/continuation pattern: the text is a duplicated, mirrored dance lesson'
+[12/50] gold='Station' explanation='Repetition/continuation pattern: the text is a repetitive, formulaic list of tra'
+[13/50] gold='Prairie' explanation='Repetition/continuation pattern: a list of repeated phrases cycling through "Pra'
+[14/50] gold='Fireplace' explanation='Repetition/continuation pattern: each line is a duplicated pair of fireplace-rel'
+[15/50] gold='Stadium' explanation='Repetition/continuation pattern: each paragraph is a duplicated version of the f'
+[16/50] gold='Meadow' explanation='Repetition/continuation pattern: the page lists repeated descriptions of Meadow/'
+[17/50] gold='Giraffe' explanation='List/repetition pattern: each paragraph is a duplicated version of the first, wi'
+[18/50] gold='Lagoon' explanation='Repetition/continuation pattern: the page lists duplicate entries of lake/lagoon'
+[19/50] gold='Morning' explanation='Repetition/continuation pattern: the text is a duplicated list of daily sunrise/'
+[20/50] gold='Tunnel' explanation='Repetition/continuation pattern: each paragraph is a duplicated copy of the prev'
+[21/50] gold='Granite' explanation='Repetition/continuation pattern: a list of rock/mineral names with repeated "Gra'
+[22/50] gold='Candle' explanation='Repetition/continuation pattern: the text is a duplicated, mirrored list of ques'
+[23/50] gold='Radish' explanation='Repetition/continuation pattern: each paragraph is a verbatim copy of the previo'
+[24/50] gold='Banjo' explanation='Repetition/continuation pattern: The text is a structured list of instrument-nam'
+[25/50] gold='Spring' explanation='Repetition/continuation pattern: the text is a humorous, formulaic list of seaso'
+[26/50] gold='Lantern' explanation='Repetition/continuation pattern: each paragraph is a duplicated version of the p'
+[27/50] gold='Chicken' explanation='Repetition/continuation pattern: the text is a duplicated copy-paste joke, repea'
+[28/50] gold='Balcony' explanation='Repetition/continuation pattern: a list of duplicate entries with "Balcony, Balc'
+[29/50] gold='Blanket' explanation='Repetition/continuation pattern: each paragraph is a duplicated copy of the prev'
+[30/50] gold='Feather' explanation='Repetition/continuation pattern: each paragraph is a duplicated copy of the prev'
+[31/50] gold='Academy' explanation='Repetition/continuation pattern: a list of repeated phrases cycling through "Aca'
+[32/50] gold='Whisper' explanation='Repetition/continuation pattern: each paragraph is a duplicated copy of the prev'
+[33/50] gold='Rooftop' explanation='Repetition/continuation pattern: each line is a duplicated entry from the list a'
+[34/50] gold='Sunrise' explanation='Repetition/continuation pattern: duplicated entries in a list of sunrise/sunset '
+[35/50] gold='Bridge' explanation='Repetition/continuation pattern: the text is a duplicated list of bridge names, '
+[36/50] gold='Hallway' explanation='Puzzle/game format with repeated instructions and example solutions for a maze-l'
+[37/50] gold='Rabbit' explanation='Repetition/continuation pattern: the page lists animal facts in a repetitive, fo'
+[38/50] gold='Singer' explanation='Repetition/continuation pattern: the text is a duplicated list of song/artist pa'
+[39/50] gold='Excursion' explanation='List/repetition pattern: each line is a duplicated itinerary entry, cycling thro'
+[40/50] gold='Glacier' explanation='Dictionary/encyclopedia entry format with repeated definitions and cross-referen'
+[41/50] gold='Forest' explanation='Repetition/continuation pattern: the text is a formulaic, repetitive quiz page w'
+[42/50] gold='Expedition' explanation='List/repetition pattern: each entry is a duplicated phrase pair ("Expedition, Ex'
+[43/50] gold='Pumpkin' explanation='Repetition/continuation pattern: a formulaic list of pumpkin/squash-themed quest'
+[44/50] gold='River' explanation='Repetition/continuation pattern: the text is a duplicated list of river names, c'
+[45/50] gold='Kitchen' explanation='Repetition/continuation pattern: each paragraph is a duplicated copy of the prev'
+[46/50] gold='Crystal' explanation='Repetition/continuation pattern: the text is a formulaic, repetitive list of def'
+[47/50] gold='Student' explanation='Repetition/continuation pattern: the text is a formulaic, repetitive list of stu'
+[48/50] gold='Emerald' explanation='Repetition/continuation pattern: a list of gemstone names repeating in sequence '
+[49/50] gold='Winter' explanation='Repetition/continuation pattern: the text is a duplicated list of seasonal trivi'
+[50/50] gold='Evening' explanation='Repetition/continuation pattern: the text is a duplicated list of weather foreca'
+
+arm                   accuracy      se
+baseline                  1.00   0.000
+nla_roundtrip             0.96   0.028
+paraphrase_medium         0.88   0.046
+paraphrase_heavy          0.92   0.038
+mismatch_same_task        0.00   0.000
+mismatch_cross_task       0.00   0.000
+random_vec                0.02   0.020
+Saved raw counts -> capitalize_results.json
+
+Saved plot -> capitalize_roundtrip.png

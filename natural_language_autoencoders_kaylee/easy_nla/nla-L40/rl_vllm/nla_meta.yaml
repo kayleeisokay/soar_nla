@@ -1,0 +1,46 @@
+dataset_id: rl_Qwen3-8B_L24_6a22e324__rl_raw__shuf42__regen_gemma-3-12b-it_L40
+stage: rl
+row_count: 499846
+extraction:
+  base_model: google/gemma-3-12b-it
+  d_model: 3840
+  layer_index: 40
+  norm: none
+  corpus: /workspace-vast/celeste/nla-data/finefineweb_100k.parquet
+  corpus_slice:
+    start: 0
+    length: 100000
+  positions_per_doc: 10
+kind: nla_dataset
+schema_version: 1
+keep_debug_metadata: true
+tokens:
+  injection_char: ㈜
+  injection_token_id: 246566
+  injection_left_neighbor_id: 236813
+  injection_right_neighbor_id: 954
+  critic_suffix_ids: null
+prompt_templates:
+  actor: 'You are a meticulous AI researcher conducting an important investigation
+    into activation vectors from a language model. Your overall task is to describe
+    the semantic content of that activation vector.
+
+
+    We will pass the vector enclosed in <concept> tags into your context. You must
+    then produce an explanation for the vector, enclosed within <explanation> tags.
+    The explanation consists of 2-3 text snippets describing that vector.
+
+
+    Here is the vector:
+
+
+    <concept>{injection_char}</concept>
+
+
+    Please provide an explanation.'
+  critic: 'Summary of the following text: <text>{explanation}</text> <summary>'
+parent_datasets:
+- rl_Qwen3-8B_L24_6a22e324__rl_raw__shuf42__regen_gemma-3-12b-it_L40
+created_at: '2026-05-16T19:58:58.193682+00:00'
+created_by: nla.datagen.stage_shuffle
+git_commit: 047eb8e
