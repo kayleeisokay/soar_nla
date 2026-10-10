@@ -1,0 +1,40 @@
+{
+  "protocol": "av-faithfulness-v1",
+  "model": "gemma12b",
+  "rows": 6000,
+  "betas": {
+    "0.1": {
+      "n": 2000,
+      "mean_original_ar_loss": 0.2820984591469169,
+      "mean_optimized_ar_loss": 0.23149697771295905,
+      "mean_original_av_nll": 0.3518605049178004,
+      "mean_optimized_av_nll": 0.6050534463226795,
+      "mean_original_objective": 0.3172845096811652,
+      "mean_optimized_objective": 0.2920023235194385,
+      "mean_accepted_steps": 5.3845,
+      "roundtrip_token_stable_rate": 0.975
+    },
+    "0.01": {
+      "n": 2000,
+      "mean_original_ar_loss": 0.2820824760273099,
+      "mean_optimized_ar_loss": 0.19024275339767338,
+      "mean_original_av_nll": 0.3518605049178004,
+      "mean_optimized_av_nll": 2.3298118785321713,
+      "mean_original_objective": 0.2856010806914419,
+      "mean_optimized_objective": 0.21354087180644274,
+      "mean_accepted_steps": 16.799,
+      "roundtrip_token_stable_rate": 0.823
+    },
+    "0.0": {
+      "n": 2000,
+      "mean_original_ar_loss": 0.2820993066392839,
+      "mean_optimized_ar_loss": 0.19750683145783843,
+      "mean_original_av_nll": 0.3518605049178004,
+      "mean_optimized_av_nll": 4.265328547120094,
+      "mean_original_objective": 0.2820993066392839,
+      "mean_optimized_objective": 0.19750683145783843,
+      "mean_accepted_steps": 18.8635,
+      "roundtrip_token_stable_rate": 0.593
+    }
+  }
+}

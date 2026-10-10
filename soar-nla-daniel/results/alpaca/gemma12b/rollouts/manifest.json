@@ -1,0 +1,21 @@
+{
+  "protocol": "av-faithfulness-v1",
+  "model": {
+    "key": "gemma12b",
+    "target_id": "google/gemma-3-12b-it",
+    "target_revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+    "av_id": "kitft/nla-gemma3-12b-L32-av",
+    "av_revision": "7aec22599e8a9cd533564868999b443fcc963cf4",
+    "ar_id": "kitft/nla-gemma3-12b-L32-ar",
+    "ar_revision": "3d6901d8243182d642af9dea452ca91549a94615",
+    "layer": 32,
+    "d_model": 3840
+  },
+  "rows": 2000,
+  "activation_shape": [
+    2000,
+    3840
+  ],
+  "distinct_sample_ids": 2000,
+  "distinct_activation_hashes": 2000
+}

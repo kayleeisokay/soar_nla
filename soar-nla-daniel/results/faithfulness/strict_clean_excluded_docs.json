@@ -1,0 +1,26 @@
+{
+  "excluded_doc_ids": [
+    "/workspace-vast/asherps/nla-data/finefineweb_100k_v2.parquet:train:26533",
+    "/workspace-vast/asherps/nla-data/finefineweb_100k_v2.parquet:train:28768",
+    "/workspace-vast/asherps/nla-data/finefineweb_100k_v2.parquet:train:47662"
+  ],
+  "reasons": {
+    "/workspace-vast/asherps/nla-data/finefineweb_100k_v2.parquet:train:26533": [
+      "custom_nla_sft"
+    ],
+    "/workspace-vast/asherps/nla-data/finefineweb_100k_v2.parquet:train:28768": [
+      "custom_nla_sft"
+    ],
+    "/workspace-vast/asherps/nla-data/finefineweb_100k_v2.parquet:train:47662": [
+      "custom_nla_sft"
+    ]
+  },
+  "n_eval_rows": 2000,
+  "n_eval_docs": 1853,
+  "n_rows_dropped": 3,
+  "sources": [
+    "custom_nla_rl",
+    "custom_nla_sft",
+    "local_gemma3_rl_first_120000"
+  ]
+}

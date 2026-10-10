@@ -1,0 +1,365 @@
+{
+  "nla": {
+    "24": {
+      "target": "google/gemma-3-12b-it",
+      "target_revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+      "av": "achand45/gemma-3-12b-it-nla-L24:rl_vllm/iter_000400",
+      "av_revision": "83e015a0e9af61cb703695d20fd63c0a77c7bf16",
+      "ar": "achand45/gemma-3-12b-it-nla-L24:rl_vllm/critic_latest",
+      "ar_revision": "83e015a0e9af61cb703695d20fd63c0a77c7bf16",
+      "backend": "easynla",
+      "layer": 24
+    },
+    "40": {
+      "target": "google/gemma-3-12b-it",
+      "target_revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+      "av": "achand45/gemma-3-12b-it-nla-L40:rl_vllm/iter_000400",
+      "av_revision": "edb2ef921706d837927a3138d9c22a5f13add89a",
+      "ar": "achand45/gemma-3-12b-it-nla-L40:rl_vllm/critic_latest",
+      "ar_revision": "edb2ef921706d837927a3138d9c22a5f13add89a",
+      "backend": "easynla",
+      "layer": 40
+    }
+  },
+  "format": "raw, without chat template",
+  "items_per_task": 10,
+  "seeds_per_item": 10,
+  "av_draws_per_position": 3,
+  "selection": "text-only edits.icl_select_score",
+  "activation_norm": "AR output rescaled to native residual norm",
+  "patch_timing": "decoder-block output during prefill only",
+  "layers": {
+    "24": {
+      "antonym": {
+        "query": {
+          "substitute_only": 0.87,
+          "rewrite_only": 0.0,
+          "edited": 0.51,
+          "donor": 0.91
+        },
+        "last1": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last4": {
+          "substitute_only": 0.79,
+          "rewrite_only": 0.0,
+          "edited": 0.37,
+          "donor": 0.95
+        }
+      },
+      "capitalize": {
+        "query": {
+          "substitute_only": 1.0,
+          "rewrite_only": 0.18,
+          "edited": 1.0,
+          "donor": 1.0
+        },
+        "last1": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last4": {
+          "substitute_only": 0.82,
+          "rewrite_only": 0.2,
+          "edited": 0.84,
+          "donor": 1.0
+        }
+      },
+      "country-capital": {
+        "query": {
+          "substitute_only": 1.0,
+          "rewrite_only": 0.23,
+          "edited": 0.92,
+          "donor": 1.0
+        },
+        "last1": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last4": {
+          "substitute_only": 1.0,
+          "rewrite_only": 0.23,
+          "edited": 0.86,
+          "donor": 1.0
+        }
+      },
+      "english-french": {
+        "query": {
+          "substitute_only": 0.91,
+          "rewrite_only": 0.38,
+          "edited": 0.89,
+          "donor": 0.91
+        },
+        "last1": {
+          "substitute_only": 0.01,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last4": {
+          "substitute_only": 0.96,
+          "rewrite_only": 0.28,
+          "edited": 0.9,
+          "donor": 0.91
+        }
+      },
+      "present-past": {
+        "query": {
+          "substitute_only": 0.99,
+          "rewrite_only": 0.18,
+          "edited": 0.99,
+          "donor": 1.0
+        },
+        "last1": {
+          "substitute_only": 0.04,
+          "rewrite_only": 0.0,
+          "edited": 0.05,
+          "donor": 0.0
+        },
+        "last4": {
+          "substitute_only": 0.98,
+          "rewrite_only": 0.13,
+          "edited": 0.92,
+          "donor": 1.0
+        }
+      },
+      "singular-plural": {
+        "query": {
+          "substitute_only": 0.99,
+          "rewrite_only": 0.19,
+          "edited": 0.98,
+          "donor": 1.0
+        },
+        "last1": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last4": {
+          "substitute_only": 0.98,
+          "rewrite_only": 0.15,
+          "edited": 0.97,
+          "donor": 1.0
+        }
+      },
+      "overall": {
+        "query": {
+          "substitute_only": 0.9600000000000001,
+          "rewrite_only": 0.19333333333333333,
+          "edited": 0.8816666666666668,
+          "donor": 0.9700000000000001
+        },
+        "last1": {
+          "substitute_only": 0.008333333333333333,
+          "rewrite_only": 0.0,
+          "edited": 0.008333333333333333,
+          "donor": 0.0
+        },
+        "last4": {
+          "substitute_only": 0.9216666666666665,
+          "rewrite_only": 0.165,
+          "edited": 0.8099999999999999,
+          "donor": 0.9766666666666667
+        }
+      },
+      "controls": {
+        "native_gold_rate": 0.985,
+        "query": {
+          "roundtrip_gold_rate": 0.9783333333333334,
+          "roundtrip_target_rate": 0.0,
+          "noop_target_rate": 0.0,
+          "noop_target_hits": 0,
+          "trials": 600
+        },
+        "last1": {
+          "roundtrip_gold_rate": 0.9533333333333334,
+          "roundtrip_target_rate": 0.0,
+          "noop_target_rate": 0.0,
+          "noop_target_hits": 0,
+          "trials": 600
+        },
+        "last4": {
+          "roundtrip_gold_rate": 0.9416666666666667,
+          "roundtrip_target_rate": 0.0,
+          "noop_target_rate": 0.0016666666666666668,
+          "noop_target_hits": 1,
+          "trials": 600
+        }
+      }
+    },
+    "40": {
+      "antonym": {
+        "query": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last1": {
+          "substitute_only": 0.92,
+          "rewrite_only": 0.89,
+          "edited": 1.0,
+          "donor": 0.94
+        },
+        "last4": {
+          "substitute_only": 0.98,
+          "rewrite_only": 0.97,
+          "edited": 1.0,
+          "donor": 0.95
+        }
+      },
+      "capitalize": {
+        "query": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last1": {
+          "substitute_only": 0.48,
+          "rewrite_only": 0.19,
+          "edited": 0.4,
+          "donor": 1.0
+        },
+        "last4": {
+          "substitute_only": 0.8,
+          "rewrite_only": 0.85,
+          "edited": 0.92,
+          "donor": 1.0
+        }
+      },
+      "country-capital": {
+        "query": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last1": {
+          "substitute_only": 0.73,
+          "rewrite_only": 0.26,
+          "edited": 0.57,
+          "donor": 1.0
+        },
+        "last4": {
+          "substitute_only": 0.89,
+          "rewrite_only": 0.63,
+          "edited": 0.85,
+          "donor": 1.0
+        }
+      },
+      "english-french": {
+        "query": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last1": {
+          "substitute_only": 0.58,
+          "rewrite_only": 0.76,
+          "edited": 0.74,
+          "donor": 0.9
+        },
+        "last4": {
+          "substitute_only": 0.71,
+          "rewrite_only": 0.89,
+          "edited": 0.86,
+          "donor": 0.9
+        }
+      },
+      "present-past": {
+        "query": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last1": {
+          "substitute_only": 0.94,
+          "rewrite_only": 0.94,
+          "edited": 0.94,
+          "donor": 1.0
+        },
+        "last4": {
+          "substitute_only": 0.96,
+          "rewrite_only": 0.95,
+          "edited": 0.94,
+          "donor": 1.0
+        }
+      },
+      "singular-plural": {
+        "query": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last1": {
+          "substitute_only": 0.52,
+          "rewrite_only": 0.46,
+          "edited": 0.53,
+          "donor": 1.0
+        },
+        "last4": {
+          "substitute_only": 0.88,
+          "rewrite_only": 0.95,
+          "edited": 0.95,
+          "donor": 1.0
+        }
+      },
+      "overall": {
+        "query": {
+          "substitute_only": 0.0,
+          "rewrite_only": 0.0,
+          "edited": 0.0,
+          "donor": 0.0
+        },
+        "last1": {
+          "substitute_only": 0.695,
+          "rewrite_only": 0.5833333333333334,
+          "edited": 0.6966666666666667,
+          "donor": 0.9733333333333333
+        },
+        "last4": {
+          "substitute_only": 0.87,
+          "rewrite_only": 0.8733333333333334,
+          "edited": 0.92,
+          "donor": 0.975
+        }
+      },
+      "controls": {
+        "native_gold_rate": 0.985,
+        "query": {
+          "roundtrip_gold_rate": 0.9833333333333333,
+          "roundtrip_target_rate": 0.0,
+          "noop_target_rate": 0.0,
+          "noop_target_hits": 0,
+          "trials": 600
+        },
+        "last1": {
+          "roundtrip_gold_rate": 0.9516666666666667,
+          "roundtrip_target_rate": 0.0,
+          "noop_target_rate": 0.0,
+          "noop_target_hits": 0,
+          "trials": 600
+        },
+        "last4": {
+          "roundtrip_gold_rate": 0.94,
+          "roundtrip_target_rate": 0.0,
+          "noop_target_rate": 0.0,
+          "noop_target_hits": 0,
+          "trials": 600
+        }
+      }
+    }
+  }
+}

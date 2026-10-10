@@ -1,0 +1,66 @@
+{
+  "protocol": "warmstart-fve-v1",
+  "spec": {
+    "key": "sft",
+    "nla": "achand45/gemma-3-12b-it-nla-L32@6bad086e3653a8e4466b430bf6713b9de547821f",
+    "av": "merged/av_hf",
+    "av_lora": null,
+    "ar": "merged/ar_hf",
+    "layer": 32
+  },
+  "contamination": "documents excluded from every custom-NLA training stage by construction",
+  "av_parse_failures": 12,
+  "full": {
+    "n_rows": 2000,
+    "n_docs": 1853,
+    "arms": {
+      "av": {
+        "fve": 0.4824880361557007,
+        "fve_ci95": [
+          0.4698236286640167,
+          0.4945870339870453
+        ],
+        "mean_cosine": 0.992087721824646,
+        "mean_mse_2_1_minus_cos": 0.01582461968064308
+      },
+      "gold": {
+        "fve": 0.6080503463745117,
+        "fve_ci95": [
+          0.5968566536903381,
+          0.6186739802360535
+        ],
+        "mean_cosine": 0.9940074682235718,
+        "mean_mse_2_1_minus_cos": 0.011985218152403831
+      },
+      "gold_shuffled": {
+        "fve": -0.6122802495956421,
+        "fve_ci95": [
+          -0.6267940402030945,
+          -0.5997000932693481
+        ],
+        "mean_cosine": 0.9753495454788208,
+        "mean_mse_2_1_minus_cos": 0.04930084943771362
+      },
+      "av_shuffled": {
+        "fve": -0.6308448314666748,
+        "fve_ci95": [
+          -0.6459310054779053,
+          -0.6174467206001282
+        ],
+        "mean_cosine": 0.9750657677650452,
+        "mean_mse_2_1_minus_cos": 0.04986852407455444
+      }
+    },
+    "gold_minus_av": {
+      "delta_fve": 0.12556231021881104,
+      "delta_fve_ci95": [
+        0.11487486958503723,
+        0.13651502132415771
+      ],
+      "p_two_sided_bootstrap": 0.0,
+      "mean_delta_cosine": 0.0019197000656276941,
+      "rows_gold_better": 1540,
+      "rows_total": 2000
+    }
+  }
+}

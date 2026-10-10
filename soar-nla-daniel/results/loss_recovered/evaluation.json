@@ -1,0 +1,37 @@
+{
+  "model": "google/gemma-3-12b-it@96b6f1eccf38110c56df3a15bffe176da04bfd80",
+  "av": "kitft/nla-gemma3-12b-L32-av@7aec22599e8a9cd533564868999b443fcc963cf4",
+  "ar": "kitft/nla-gemma3-12b-L32-ar@3d6901d8243182d642af9dea452ca91549a94615",
+  "layer": 32,
+  "windows": 1543,
+  "settings": {
+    "prefix_50": [
+      0,
+      50
+    ],
+    "prefix_100": [
+      0,
+      100
+    ],
+    "prefix_128": [
+      0,
+      128
+    ],
+    "suffix_50_100": [
+      50,
+      100
+    ]
+  },
+  "methods": [
+    "nla",
+    "nla_raw",
+    "sae",
+    "sae_norm"
+  ],
+  "sae": {
+    "repo": "google/gemma-scope-2-12b-it@4c419f1ba0be8b7754d4151d4f26c23b92a9029e",
+    "sae_id": "layer_32_width_16k_l0_small",
+    "mean_l0": 20.81703661697991,
+    "mean_cosine": 0.9931693921225991
+  }
+}

@@ -1,0 +1,30 @@
+
+=== forced choice: real accuracy [95% CI], control, chance ===
+
+class            n                               A                               B                               C
+------------------------------------------------------------------------------------------------------------------
+Gender         709 65.2% [62%,69%] ctl33.9% ch33.3% 62.8% [59%,66%] ctl34.7% ch33.3% 50.5% [47%,54%] ctl36.1% ch33.3%
+Occupation     874 87.8% [85%,90%] ctl19.7% ch20.0% 85.0% [82%,87%] ctl20.0% ch20.0% 79.1% [76%,82%] ctl21.3% ch20.0%
+Country        501 48.3% [44%,53%] ctl19.8% ch20.0% 49.5% [45%,54%] ctl17.8% ch20.0% 41.3% [37%,46%] ctl19.6% ch20.0%
+Religion       501 67.3% [63%,71%] ctl24.6% ch20.0% 65.5% [61%,70%] ctl21.4% ch20.0% 63.3% [59%,67%] ctl23.6% ch20.0%
+POOLED        2585 69.9% [68%,72%] ctl24.5% ch23.7% 68.2% [66%,70%] ctl23.9% ch23.7% 60.9% [59%,63%] ctl25.5% ch23.7%
+
+=== mean P(gold) / mean margin, real arm ===
+
+class                          A                   B                   C
+(P(gold) averaged over items where gold was inside the top-20 logprobs)
+Gender             0.651 / 0.945       0.630 / 0.965       0.502 / 0.977
+Occupation         0.876 / 0.988       0.850 / 0.981       0.791 / 0.974
+Country            0.486 / 0.919       0.499 / 0.927       0.408 / 0.921
+Religion           0.680 / 0.974       0.655 / 0.964       0.632 / 0.973
+[json] -> results/warmstart_ablation/judge_summary.json
+
+gold letter dist : {'A': 1770, 'B': 1839, 'C': 1773, 'D': 1179, 'E': 1194}
+pick letter dist : {'A': 2236, 'B': 1881, 'C': 1861, 'D': 924, 'E': 853}
+
+=== Gender: recall by true value (real arm) ===
+
+value                        A               B               C
+female             88.9% (261)     97.7% (261)     95.4% (261)
+male               56.7% (157)     61.1% (157)     27.4% (157)
+non_binary         48.5% (291)     32.3% (291)     22.7% (291)

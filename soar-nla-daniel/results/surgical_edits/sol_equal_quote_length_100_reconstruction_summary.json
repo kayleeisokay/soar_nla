@@ -1,0 +1,12 @@
+{
+  "n": 100,
+  "activation_variance": 0.02973727136850357,
+  "original_mean_fve": 0.7487225388090856,
+  "corrected_mean_fve": 0.740288558522991,
+  "mean_fve_delta": -0.008433980286094475,
+  "mean_fve_delta_ci95": [
+    -0.03250433125287033,
+    0.012610103815431253
+  ],
+  "fraction_reconstruction_improved": 0.65
+}

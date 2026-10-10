@@ -1,0 +1,182 @@
+{
+  "results": "results_with_explanation.jsonl",
+  "judge": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "paper_scope": "first_two_paragraphs",
+  "table": {
+    "first_two_paragraphs": {
+      "custom_sonnet": {
+        "n_sentences": 4267,
+        "n_explanations": 2000,
+        "counts": {
+          "Supported": 3119,
+          "Unsupported": 1137,
+          "Illegible": 11
+        },
+        "percent": {
+          "Supported": 73.09585188657137,
+          "Unsupported": 26.64635575345676,
+          "Illegible": 0.2577923599718772
+        }
+      },
+      "custom_av": {
+        "n_sentences": 4331,
+        "n_explanations": 2000,
+        "counts": {
+          "Supported": 272,
+          "Unsupported": 4042,
+          "Illegible": 17
+        },
+        "percent": {
+          "Supported": 6.280304779496652,
+          "Unsupported": 93.32717617178481,
+          "Illegible": 0.39251904871854076
+        }
+      },
+      "alpaca_av": {
+        "n_sentences": 3298,
+        "n_explanations": 1573,
+        "counts": {
+          "Supported": 577,
+          "Unsupported": 2718,
+          "Illegible": 3
+        },
+        "percent": {
+          "Supported": 17.495451788963006,
+          "Unsupported": 82.41358399029716,
+          "Illegible": 0.09096422073984232
+        }
+      },
+      "alpaca_gcg_beta_0.01": {
+        "n_sentences": 3298,
+        "n_explanations": 1573,
+        "counts": {
+          "Supported": 472,
+          "Unsupported": 2789,
+          "Illegible": 37
+        },
+        "percent": {
+          "Supported": 14.311704063068527,
+          "Unsupported": 84.56640388114009,
+          "Illegible": 1.1218920557913887
+        }
+      }
+    },
+    "all_sentences": {
+      "custom_sonnet": {
+        "n_sentences": 6305,
+        "n_explanations": 2000,
+        "counts": {
+          "Supported": 3971,
+          "Unsupported": 2318,
+          "Illegible": 16
+        },
+        "percent": {
+          "Supported": 62.9817605075337,
+          "Unsupported": 36.7644726407613,
+          "Illegible": 0.253766851704996
+        }
+      },
+      "custom_av": {
+        "n_sentences": 10786,
+        "n_explanations": 2000,
+        "counts": {
+          "Supported": 766,
+          "Unsupported": 9856,
+          "Illegible": 164
+        },
+        "percent": {
+          "Supported": 7.1017986278509175,
+          "Unsupported": 91.37771184869275,
+          "Illegible": 1.5204895234563323
+        }
+      },
+      "alpaca_av": {
+        "n_sentences": 5642,
+        "n_explanations": 1573,
+        "counts": {
+          "Supported": 726,
+          "Unsupported": 4768,
+          "Illegible": 148
+        },
+        "percent": {
+          "Supported": 12.867777383906416,
+          "Unsupported": 84.50903934774902,
+          "Illegible": 2.6231832683445586
+        }
+      },
+      "alpaca_gcg_beta_0.01": {
+        "n_sentences": 5642,
+        "n_explanations": 1573,
+        "counts": {
+          "Supported": 600,
+          "Unsupported": 4698,
+          "Illegible": 344
+        },
+        "percent": {
+          "Supported": 10.634526763559021,
+          "Unsupported": 83.26834455866714,
+          "Illegible": 6.097128677773839
+        }
+      }
+    },
+    "after_second_paragraph": {
+      "custom_sonnet": {
+        "n_sentences": 2038,
+        "n_explanations": 1996,
+        "counts": {
+          "Supported": 852,
+          "Unsupported": 1181,
+          "Illegible": 5
+        },
+        "percent": {
+          "Supported": 41.805691854759566,
+          "Unsupported": 57.94896957801767,
+          "Illegible": 0.24533856722276742
+        }
+      },
+      "custom_av": {
+        "n_sentences": 6455,
+        "n_explanations": 2000,
+        "counts": {
+          "Supported": 494,
+          "Unsupported": 5814,
+          "Illegible": 147
+        },
+        "percent": {
+          "Supported": 7.652982184353214,
+          "Unsupported": 90.06971340046475,
+          "Illegible": 2.2773044151820296
+        }
+      },
+      "alpaca_av": {
+        "n_sentences": 2344,
+        "n_explanations": 1572,
+        "counts": {
+          "Supported": 149,
+          "Unsupported": 2050,
+          "Illegible": 145
+        },
+        "percent": {
+          "Supported": 6.356655290102389,
+          "Unsupported": 87.45733788395904,
+          "Illegible": 6.186006825938566
+        }
+      },
+      "alpaca_gcg_beta_0.01": {
+        "n_sentences": 2344,
+        "n_explanations": 1572,
+        "counts": {
+          "Supported": 128,
+          "Unsupported": 1909,
+          "Illegible": 307
+        },
+        "percent": {
+          "Supported": 5.460750853242321,
+          "Unsupported": 81.4419795221843,
+          "Illegible": 13.097269624573379
+        }
+      }
+    }
+  }
+}

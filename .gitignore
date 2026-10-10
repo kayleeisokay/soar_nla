@@ -1,0 +1,24 @@
+# Datasets: dataset directories at any depth
+datasets/
+dataset/
+data/
+
+# Dataset file formats
+*.parquet
+*.arrow
+*.feather
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.tfrecord
+*.zarr/
+
+# Hugging Face datasets cache
+.cache/
+hf_cache/
+
+# OS noise
+.DS_Store

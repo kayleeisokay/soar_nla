@@ -1,0 +1,167 @@
+{
+  "source_commit": "02d62272d90528742ef476c316dc39098f5ae798",
+  "task": "english-french",
+  "n_shots": 1,
+  "n": 50,
+  "target_model": "google/gemma-3-12b-it",
+  "target_revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+  "layer": 32,
+  "max_new_tokens": 256,
+  "style_difference": "raw tokenizer prompt vs Gemma chat template around same prompt",
+  "conditions": {
+    "raw_baseline": {
+      "completed": 50,
+      "correct": 7,
+      "accuracy": 0.14
+    },
+    "raw_identity": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "raw_nla": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "raw_random_vec": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "raw_mismatch_cross_task": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "raw_mismatch_same_task": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "raw_para_medium": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "raw_para_heavy": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "chat_baseline": {
+      "completed": 50,
+      "correct": 7,
+      "accuracy": 0.14
+    },
+    "chat_identity": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "chat_nla": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "chat_random_vec": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "chat_mismatch_cross_task": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "chat_mismatch_same_task": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "chat_para_medium": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    },
+    "chat_para_heavy": {
+      "completed": 0,
+      "correct": 0,
+      "accuracy": null
+    }
+  },
+  "paired_chat_vs_raw": {
+    "baseline": {
+      "completed": 50,
+      "both_correct": 6,
+      "raw_only_correct": 1,
+      "chat_only_correct": 1,
+      "both_incorrect": 42,
+      "delta_accuracy_points": 0.0,
+      "two_sided_exact_mcnemar_p": 1.0
+    },
+    "identity": {
+      "completed": 0,
+      "both_correct": 0,
+      "raw_only_correct": 0,
+      "chat_only_correct": 0,
+      "both_incorrect": 0,
+      "delta_accuracy_points": null,
+      "two_sided_exact_mcnemar_p": null
+    },
+    "nla": {
+      "completed": 0,
+      "both_correct": 0,
+      "raw_only_correct": 0,
+      "chat_only_correct": 0,
+      "both_incorrect": 0,
+      "delta_accuracy_points": null,
+      "two_sided_exact_mcnemar_p": null
+    },
+    "random_vec": {
+      "completed": 0,
+      "both_correct": 0,
+      "raw_only_correct": 0,
+      "chat_only_correct": 0,
+      "both_incorrect": 0,
+      "delta_accuracy_points": null,
+      "two_sided_exact_mcnemar_p": null
+    },
+    "mismatch_cross_task": {
+      "completed": 0,
+      "both_correct": 0,
+      "raw_only_correct": 0,
+      "chat_only_correct": 0,
+      "both_incorrect": 0,
+      "delta_accuracy_points": null,
+      "two_sided_exact_mcnemar_p": null
+    },
+    "mismatch_same_task": {
+      "completed": 0,
+      "both_correct": 0,
+      "raw_only_correct": 0,
+      "chat_only_correct": 0,
+      "both_incorrect": 0,
+      "delta_accuracy_points": null,
+      "two_sided_exact_mcnemar_p": null
+    },
+    "para_medium": {
+      "completed": 0,
+      "both_correct": 0,
+      "raw_only_correct": 0,
+      "chat_only_correct": 0,
+      "both_incorrect": 0,
+      "delta_accuracy_points": null,
+      "two_sided_exact_mcnemar_p": null
+    },
+    "para_heavy": {
+      "completed": 0,
+      "both_correct": 0,
+      "raw_only_correct": 0,
+      "chat_only_correct": 0,
+      "both_incorrect": 0,
+      "delta_accuracy_points": null,
+      "two_sided_exact_mcnemar_p": null
+    }
+  }
+}

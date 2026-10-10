@@ -1,0 +1,60 @@
+
+=== tense ===
+query: 'jumped'   target_gold: 'will jump'
+
+BEFORE:
+Dictionary/word-lookup format: structured pattern of word definitions with grammar labels, requiring a crossword clue answer for "jumped."
+
+The phrase "verb: jumped" signals a verb translation entry, with "jumped" as the past participle of "jump."
+
+Final token "jumped be:" opens a verb phrase ("verb: they are called jumped") — immediately requires a past-tense verb form like "jumped" or "jumped by jumping" to complete the phrase, likely "jumped" or "jumped...jumped" or "jumped, jumped" for the verb phrase listing the past action.
+
+AFTER (100% edit):
+Dictionary/word-lookup format: structured pattern of word definitions with grammar labels, requiring a crossword clue answer for "will jump."
+
+The phrase "verb: will jump" signals a verb translation entry, with "will jump" as the past participle of "jump."
+
+Final token "will jump be:" opens a verb phrase ("verb: they are called will jump") — immediately requires a past-tense verb form like "will jump" or "will jump by jumping" to complete the phrase, likely "will jump" or "will jump...will jump" or "will jump, will jump" for the verb phrase listing the past action.
+
+pred_edit='will jump'  correct_edit=True
+pred_noop='jumped'  correct_noop=False
+
+=== en_fr_es ===
+query: 'acceptation'   target_gold: 'aceptación'
+
+BEFORE:
+Structured translation/dictionary format: bilingual phrase list with French/English equivalents, requiring a definition or word for "acceptation."
+
+The phrase "acceptation, accord ou acceptation : le refus de la décision" establishes a list of English translations for "acceptation," implying a semantic category of approval/acceptance.
+
+Final token "de la décision, la" opens a noun phrase ("acceptation : acceptation,") — immediately requires a noun like "acceptation" or "acceptation de la proposition" or "acceptation par la réception" to complete the translation category, likely "acceptation" or "acceptation de la demande" matching the positive outcome.
+
+AFTER (100% edit):
+Structured translation/dictionary format: bilingual phrase list with French/English equivalents, requiring a definition or word for "aceptación."
+
+The phrase "aceptación, accord ou aceptación : le refus de la décision" establishes a list of English translations for "aceptación," implying a semantic category of approval/acceptance.
+
+Final token "de la décision, la" opens a noun phrase ("aceptación : aceptación,") — immediately requires a noun like "aceptación" or "aceptación de la proposition" or "aceptación par la réception" to complete the translation category, likely "aceptación" or "aceptación de la demande" matching the positive outcome.
+
+pred_edit='acceptation'  correct_edit=False
+pred_noop='acceptation'  correct_noop=False
+
+=== capitalize_allcaps ===
+query: 'Summit'   target_gold: 'SUMMIT'
+
+BEFORE:
+Word puzzle format: structured list of word clues with definitions, following a pattern of "Summit/Summit" for a crossword answer.
+
+The answer "Summit" is being listed as the final label, matching the "Summit" alias for the peak word, suggesting a simple name or synonym.
+
+Final token " " ends a label pair ("Summit:"), requiring a parallel noun phrase — likely "Summit" or "Summit, Summit" or "Summit Point" to complete the definition block. Or "Summit: Summit" or "Summit... Mountain" or "Summit Point is the Summit" — the noun matching the peak/highest point meaning.
+
+AFTER (100% edit):
+Word puzzle format: structured list of word clues with definitions, following a pattern of "SUMMIT/SUMMIT" for a crossword answer.
+
+The answer "SUMMIT" is being listed as the final label, matching the "SUMMIT" alias for the peak word, suggesting a simple name or synonym.
+
+Final token " " ends a label pair ("SUMMIT:"), requiring a parallel noun phrase — likely "SUMMIT" or "SUMMIT, SUMMIT" or "SUMMIT Point" to complete the definition block. Or "SUMMIT: SUMMIT" or "SUMMIT... Mountain" or "SUMMIT Point is the SUMMIT" — the noun matching the peak/highest point meaning.
+
+pred_edit='SUMMIT'  correct_edit=True
+pred_noop='Summit'  correct_noop=False

@@ -1,0 +1,134 @@
+{
+  "target": "google/gemma-3-12b-it",
+  "target_revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+  "av": "kitft/nla-gemma3-12b-L32-av",
+  "av_revision": "7aec22599e8a9cd533564868999b443fcc963cf4",
+  "ar": "kitft/nla-gemma3-12b-L32-ar",
+  "ar_revision": "3d6901d8243182d642af9dea452ca91549a94615",
+  "backend": "kitft",
+  "layer": 32,
+  "pair": "official released NLA",
+  "format": "chat",
+  "trials": 600,
+  "items_per_task": 10,
+  "seeds_per_item": 10,
+  "sources": [
+    "gemma3-12b/icl_redirect-a.json",
+    "gemma3-12b/icl_redirect-b.json"
+  ],
+  "spans": {
+    "last1": "Single final token",
+    "last4": "Four header tokens"
+  },
+  "per_task": {
+    "antonym": {
+      "last1": {
+        "substitute_only": 0.39,
+        "rewrite_only": 0.8,
+        "edited": 1.0,
+        "donor": 0.06
+      },
+      "last4": {
+        "substitute_only": 0.59,
+        "rewrite_only": 0.97,
+        "edited": 1.0,
+        "donor": 0.84
+      }
+    },
+    "capitalize": {
+      "last1": {
+        "substitute_only": 0.22,
+        "rewrite_only": 0.0,
+        "edited": 0.15,
+        "donor": 0.05
+      },
+      "last4": {
+        "substitute_only": 0.87,
+        "rewrite_only": 0.03,
+        "edited": 0.77,
+        "donor": 0.53
+      }
+    },
+    "country-capital": {
+      "last1": {
+        "substitute_only": 0.46,
+        "rewrite_only": 0.12,
+        "edited": 0.79,
+        "donor": 0.05
+      },
+      "last4": {
+        "substitute_only": 0.85,
+        "rewrite_only": 0.3,
+        "edited": 1.0,
+        "donor": 1.0
+      }
+    },
+    "english-french": {
+      "last1": {
+        "substitute_only": 0.54,
+        "rewrite_only": 0.63,
+        "edited": 0.88,
+        "donor": 0.21
+      },
+      "last4": {
+        "substitute_only": 0.78,
+        "rewrite_only": 0.73,
+        "edited": 0.9,
+        "donor": 0.9
+      }
+    },
+    "present-past": {
+      "last1": {
+        "substitute_only": 0.75,
+        "rewrite_only": 0.14,
+        "edited": 0.92,
+        "donor": 0.0
+      },
+      "last4": {
+        "substitute_only": 0.96,
+        "rewrite_only": 0.82,
+        "edited": 0.99,
+        "donor": 0.96
+      }
+    },
+    "singular-plural": {
+      "last1": {
+        "substitute_only": 0.49,
+        "rewrite_only": 0.12,
+        "edited": 0.56,
+        "donor": 0.15
+      },
+      "last4": {
+        "substitute_only": 0.71,
+        "rewrite_only": 0.39,
+        "edited": 0.88,
+        "donor": 0.78
+      }
+    }
+  },
+  "overall": {
+    "last1": {
+      "substitute_only": 0.4750000000000001,
+      "rewrite_only": 0.3016666666666667,
+      "edited": 0.7166666666666667,
+      "donor": 0.08666666666666667
+    },
+    "last4": {
+      "substitute_only": 0.7933333333333333,
+      "rewrite_only": 0.54,
+      "edited": 0.9233333333333333,
+      "donor": 0.8350000000000001
+    }
+  },
+  "controls": {
+    "native_gold_rate": 0.9866666666666667,
+    "last1": {
+      "roundtrip": 0.0,
+      "noop": 0.0
+    },
+    "last4": {
+      "roundtrip": 0.0,
+      "noop": 0.0
+    }
+  }
+}

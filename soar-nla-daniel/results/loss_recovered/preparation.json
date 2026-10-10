@@ -1,0 +1,10 @@
+{
+  "model": "google/gemma-3-12b-it@96b6f1eccf38110c56df3a15bffe176da04bfd80",
+  "alpaca_file": "google-gemma-3-12b-it/alpaca.parquet",
+  "alpaca_sha256": "20bafc4a3a3945a1acf0630e14cff06daceab70687bc46f01ecc26e86106b967",
+  "conversations": 2000,
+  "context_size": 128,
+  "windows": 1543,
+  "excluded_short_conversations": 457,
+  "activation_positions": 197504
+}

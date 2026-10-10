@@ -1,0 +1,44 @@
+{
+  "model": "google/gemma-3-12b-it",
+  "dataset": "allenai/ai2_arc ARC-Easy test",
+  "n": 2376,
+  "protocol": {
+    "prompt": "Gemma chat template; one user message with question, labeled choices, and an instruction to return only the answer letter",
+    "decoding": {
+      "temperature": 0.0,
+      "max_new_tokens": 32
+    },
+    "scoring": "exact answer-letter accuracy",
+    "intervention": "replace every layer-32 prefill-token residual after block 32 with greedy AV->text->AR reconstruction; preserve each original L2 norm; generated-token activations unpatched"
+  },
+  "conditions": {
+    "clean": {
+      "correct": 2303,
+      "total": 2376,
+      "accuracy": 0.9692760942760943,
+      "unparsed_predictions": 0,
+      "generation_cap_hits": 0,
+      "generation_cap_hit_indices": []
+    },
+    "patched": {
+      "correct": 2294,
+      "total": 2376,
+      "accuracy": 0.9654882154882155,
+      "unparsed_predictions": 1,
+      "generation_cap_hits": 0,
+      "generation_cap_hit_indices": []
+    }
+  },
+  "paired_clean_vs_nla": {
+    "both_correct": 2291,
+    "clean_only_correct": 12,
+    "nla_only_correct": 3,
+    "both_incorrect": 70,
+    "accuracy_difference_points": -0.3787878787878788,
+    "two_sided_exact_mcnemar_p": 0.03515625
+  },
+  "reconstruction": {
+    "mean_cosine": 0.9870699048042297,
+    "av_explanation_parse_failures": 0
+  }
+}

@@ -1,0 +1,1 @@
+Final-token donor patching on raw-text ICL prompts without a chat template. Each line is one task, averaged over 10 items and 3 seeds per layer. The patched position is the final colon; the dotted vertical line marks layer 32.

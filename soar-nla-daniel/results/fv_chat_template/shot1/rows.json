@@ -1,0 +1,902 @@
+[
+  {
+    "position": 0,
+    "query_index": 4696,
+    "query_input": "absolute",
+    "gold": "absolue",
+    "arms": {
+      "raw_baseline": {
+        "output": " total\n\nQ: curious\nA: inquisitive\n\nQ: fragile\nA: delicate\n\nQ: enormous\nA: gigantic\n",
+        "prediction": "total",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "certain",
+        "prediction": "certain",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 1,
+    "query_index": 5772,
+    "query_input": "ash",
+    "gold": "frêne",
+    "arms": {
+      "raw_baseline": {
+        "output": " cendre\n\nQ: book\nA: livre\n\nQ: paper\nA: papier\n\nQ: ink\nA: encre\n\nQ: quill\nA: plume\n\nQ: scribe\nA: scribe\n\nQ: parchment\nA: parchemin\n\nQ: illumination\nA: illumination\n\nQ: codex\nA: codex\n",
+        "prediction": "cendre",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "cendre",
+        "prediction": "cendre",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 2,
+    "query_index": 2094,
+    "query_input": "colonel",
+    "gold": "colonel",
+    "arms": {
+      "raw_baseline": {
+        "output": " coronel\n\nQ: route\nA: ruta\n\nQ: facade\nA: fachada\n\nQ: ballet\nA: ballet\n",
+        "prediction": "coronel",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "coronel",
+        "prediction": "coronel",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 3,
+    "query_index": 5702,
+    "query_input": "births",
+    "gold": "naissances",
+    "arms": {
+      "raw_baseline": {
+        "output": " deaths\n\nQ: sun\nA: moon\n\nQ: up\nA: down\n\nQ: left\nA: right\n",
+        "prediction": "deaths",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "deaths",
+        "prediction": "deaths",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 4,
+    "query_index": 4208,
+    "query_input": "reduction",
+    "gold": "réduction",
+    "arms": {
+      "raw_baseline": {
+        "output": " diminution\n\nQ: happy\nA: heureux\n\nQ: water\nA: eau\n\nQ: book\nA: livre\n",
+        "prediction": "diminution",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "diminution",
+        "prediction": "diminution",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 5,
+    "query_index": 2188,
+    "query_input": "ranked",
+    "gold": "classés",
+    "arms": {
+      "raw_baseline": {
+        "output": " ranked\n\nQ: orange\nA: orange\n\nQ: purple\nA: purple\n\nQ: yellow\nA: yellow\n\nQ: green\nA: green\n\nQ: blue\nA: blue\n\nQ: red\nA: red\n\nQ: brown\nA: brown\n\nQ: black\nA: black\n",
+        "prediction": "ranked",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "ranked",
+        "prediction": "ranked",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 6,
+    "query_index": 3704,
+    "query_input": "pole",
+    "gold": "pôle",
+    "arms": {
+      "raw_baseline": {
+        "output": " elop\n\nQ: door\nA: rood\n\nQ: stop\nA: pots\n\nQ: flow\nA: wolf\n\nQ: race\nA: ecar\n\nQ: rain\nA: nair\n\nQ: bear\nA: raeb\n\nQ: star\nA: rats\n\nQ: tree\nA: eert\n\nQ: blue\nA: eulb\n\nQ: fish\nA: hsif\n\nQ: bird\nA: drib\n\nQ: boat\nA: taob\n\nQ: lamp\nA: pmal\n\nQ: ball\nA: llab\n\nQ: milk\nA: klim\n\nQ: nose\nA: eson\n\nQ: hand\nA: dnah\n\nQ: face\nA: ecef\n\nQ: head\nA: daeh\n\nQ: leg\nA: gel\n\nQ: eye\nA: yee\n\nQ: sun\nA: nus\n\nQ: cat\nA: tac\n\nQ: dog\nA: god\n\nQ: fox\nA: xof\n\nQ: pig\nA: gip\n\nQ: hen\nA: neh\n\nQ: cow\nA: woc\n\nQ: rat\nA: tar\n\nQ: ant",
+        "prediction": "elop",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "elop",
+        "prediction": "elop",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 7,
+    "query_index": 3659,
+    "query_input": "weapon",
+    "gold": "arme",
+    "arms": {
+      "raw_baseline": {
+        "output": " weapon\n\nQ: orange\nA: orange\n\nQ: guitar\nA: guitar\n\nQ: bicycle\nA: bicycle\n",
+        "prediction": "weapon",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "weapon",
+        "prediction": "weapon",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 8,
+    "query_index": 845,
+    "query_input": "empire",
+    "gold": "empire",
+    "arms": {
+      "raw_baseline": {
+        "output": " dominion\n\nQ: sorrow\nA: grief\n\nQ: humble\nA: modest\n\nQ: vibrant\nA: lively\n\nQ: obscure\nA: vague\n\nQ: tranquil\nA: serene\n\nQ: tedious\nA: dull\n\nQ: lavish\nA: opulent\n\nQ: fragile\nA: delicate\n",
+        "prediction": "dominion",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "kingdom",
+        "prediction": "kingdom",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 9,
+    "query_index": 4810,
+    "query_input": "nonsense",
+    "gold": "bêtises",
+    "arms": {
+      "raw_baseline": {
+        "output": " balderdash\n\nQ: quiet\nA: silent\n\nQ: clever\nA: astute\n\nQ: happy\nA: joyful\n\nQ: large\nA: immense\n",
+        "prediction": "balderdash",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "balderdash",
+        "prediction": "balderdash",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 10,
+    "query_index": 2548,
+    "query_input": "brain",
+    "gold": "cerveaux",
+    "arms": {
+      "raw_baseline": {
+        "output": " processor\n\nQ: heart\nA: pump\n\nQ: lungs\nA: filter\n\nQ: stomach\nA: blender\n",
+        "prediction": "processor",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "mind",
+        "prediction": "mind",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 11,
+    "query_index": 2643,
+    "query_input": "broad",
+    "gold": "large",
+    "arms": {
+      "raw_baseline": {
+        "output": " large\n\nQ: clever\nA: intelligent\n\nQ: cold\nA: froid\n\nQ: dark\nA: sombre\n\nQ: easy\nA: facile\n\nQ: fast\nA: rapide\n\nQ: good\nA: bon\n\nQ: happy\nA: heureux\n\nQ: hot\nA: chaud\n\nQ: kind\nA: gentil\n\nQ: long\nA: long\n\nQ: new\nA: nouveau\n\nQ: old\nA: vieux\n\nQ: quiet\nA: calme\n\nQ: rich\nA: riche\n\nQ: sad\nA: triste\n\nQ: short\nA: court\n\nQ: slow\nA: lent\n\nQ: small\nA: petit\n\nQ: strong\nA: fort\n\nQ: sweet\nA: doux\n\nQ: tall\nA: grand\n\nQ: true\nA: vrai\n",
+        "prediction": "large",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "large",
+        "prediction": "large",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 12,
+    "query_index": 5636,
+    "query_input": "geometry",
+    "gold": "géométrique",
+    "arms": {
+      "raw_baseline": {
+        "output": " géométrie\n\nQ: physics\nA: physique\n\nQ: algebra\nA: algèbre\n\nQ: calculus\nA: calcul\n\nQ: statistics\nA: statistiques\n",
+        "prediction": "géométrie",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "géométrie",
+        "prediction": "géométrie",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 13,
+    "query_index": 624,
+    "query_input": "probably",
+    "gold": "surement",
+    "arms": {
+      "raw_baseline": {
+        "output": " probablement\n\nQ: quickly\nA: vite\n\nQ: always\nA: toujours\n\nQ: sometimes\nA: parfois",
+        "prediction": "probablement",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "peutetre",
+        "prediction": "peutetre",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 14,
+    "query_index": 5867,
+    "query_input": "flags",
+    "gold": "pavillons",
+    "arms": {
+      "raw_baseline": {
+        "output": " drapeaux\n\nQ: quickly\nA: vite\n\nQ: always\nA: toujours\n\nQ: hello\nA: bonjour",
+        "prediction": "drapeaux",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "drapeaux",
+        "prediction": "drapeaux",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 15,
+    "query_index": 3569,
+    "query_input": "suit",
+    "gold": "costard",
+    "arms": {
+      "raw_baseline": {
+        "output": " traje\n\nQ: book\nA: libro\n\nQ: car\nA: auto\n\nQ: house\nA: casa\n",
+        "prediction": "traje",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "traje",
+        "prediction": "traje",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 16,
+    "query_index": 2792,
+    "query_input": "collected",
+    "gold": "recueillis",
+    "arms": {
+      "raw_baseline": {
+        "output": " ramassé\n\nQ: painted\nA: peint\n\nQ: danced\nA: dansé\n\nQ: sang\nA: chanté\n",
+        "prediction": "ramassé",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "rassemblé",
+        "prediction": "rassemblé",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 17,
+    "query_index": 6087,
+    "query_input": "dear",
+    "gold": "chère",
+    "arms": {
+      "raw_baseline": {
+        "output": " dearly\n\nQ: light\nA: lightly\n\nQ: fast\nA: faster\n\nQ: hard\nA: harder\n",
+        "prediction": "dearly",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "loved",
+        "prediction": "loved",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 18,
+    "query_index": 55,
+    "query_input": "years",
+    "gold": "années",
+    "arms": {
+      "raw_baseline": {
+        "output": " years\n\nQ: time\nA: time\n\nQ: data\nA: data\n\nQ: file\nA: file\n",
+        "prediction": "years",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "years",
+        "prediction": "years",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 19,
+    "query_index": 888,
+    "query_input": "simply",
+    "gold": "simplement",
+    "arms": {
+      "raw_baseline": {
+        "output": " simply\n\nQ: orange\nA: orange\n\nQ: quickly\nA: quickly\n\nQ: always\nA: always\n",
+        "prediction": "simply",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "simply",
+        "prediction": "simply",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 20,
+    "query_index": 5856,
+    "query_input": "willie",
+    "gold": "willie",
+    "arms": {
+      "raw_baseline": {
+        "output": " william\n\nQ: alabama\nA: alabama\n\nQ: california\nA: california\n\nQ: oklahoma\nA: oklahoma\n",
+        "prediction": "william",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "william",
+        "prediction": "william",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 21,
+    "query_index": 2695,
+    "query_input": "detailed",
+    "gold": "détaillées",
+    "arms": {
+      "raw_baseline": {
+        "output": " meticulous\n\nQ: clever\nA: astute\n\nQ: generous\nA: magnanimous\n\nQ: quiet\nA: serene\n",
+        "prediction": "meticulous",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "Thorough",
+        "prediction": "Thorough",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 22,
+    "query_index": 4823,
+    "query_input": "taxes",
+    "gold": "impôt",
+    "arms": {
+      "raw_baseline": {
+        "output": " levies\n\nQ: soldiers\nA: troops\n\nQ: victory\nA: triumph\n\nQ: freedom\nA: liberty\n",
+        "prediction": "levies",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "levies",
+        "prediction": "levies",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 23,
+    "query_index": 863,
+    "query_input": "mary",
+    "gold": "marie",
+    "arms": {
+      "raw_baseline": {
+        "output": " marie\n\nQ: red\nA: rouge\n\nQ: new\nA: nouveau\n\nQ: good\nA: bon\n",
+        "prediction": "marie",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "marie",
+        "prediction": "marie",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 24,
+    "query_index": 4564,
+    "query_input": "deployed",
+    "gold": "déployé",
+    "arms": {
+      "raw_baseline": {
+        "output": " déployé\n\nQ: contain\nA: contenir\n\nQ: encompass\nA: englober\n\nQ: comprise\nA: comprendre\n",
+        "prediction": "déployé",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "deployed",
+        "prediction": "deployed",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 25,
+    "query_index": 1608,
+    "query_input": "guide",
+    "gold": "guide",
+    "arms": {
+      "raw_baseline": {
+        "output": " guider\n\nQ: paint\nA: peindre\n\nQ: write\nA: écrire\n\nQ: sing\nA: chanter\n",
+        "prediction": "guider",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "diriger",
+        "prediction": "diriger",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 26,
+    "query_index": 4676,
+    "query_input": "veterans",
+    "gold": "vétérans",
+    "arms": {
+      "raw_baseline": {
+        "output": " ancienscombattants\n\nQ: children\nA: enfants\n\nQ: happiness\nA: bonheur\n\nQ: knowledge\nA: connaissance\n",
+        "prediction": "ancienscombattants",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "anciens",
+        "prediction": "anciens",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 27,
+    "query_index": 5514,
+    "query_input": "reflected",
+    "gold": "reflété",
+    "arms": {
+      "raw_baseline": {
+        "output": " reflected\n\nQ: quickly\nA: quickly\n\nQ: beautiful\nA: beautiful\n\nQ: interesting\nA: interesting\n",
+        "prediction": "reflected",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "mirrored",
+        "prediction": "mirrored",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 28,
+    "query_index": 5470,
+    "query_input": "viii",
+    "gold": "viii",
+    "arms": {
+      "raw_baseline": {
+        "output": " eight\n\nQ: 100\nA: hundred\n\nQ: 1000\nA: thousand\n\nQ: 1000000\nA: million\n",
+        "prediction": "eight",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "eight",
+        "prediction": "eight",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 29,
+    "query_index": 41,
+    "query_input": "would",
+    "gold": "serait",
+    "arms": {
+      "raw_baseline": {
+        "output": " would\n\nQ: beautiful\nA: beautiful\n\nQ: quickly\nA: quickly\n\nQ: always\nA: always\n",
+        "prediction": "would",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "conditional",
+        "prediction": "conditional",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 30,
+    "query_index": 149,
+    "query_input": "area",
+    "gold": "région",
+    "arms": {
+      "raw_baseline": {
+        "output": " aire\n\nQ: book\nA: livre\n\nQ: car\nA: voiture\n\nQ: house\nA: maison\n",
+        "prediction": "aire",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "surface",
+        "prediction": "surface",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 31,
+    "query_index": 148,
+    "query_input": "based",
+    "gold": "basée",
+    "arms": {
+      "raw_baseline": {
+        "output": " based\n\nQ: vibe\nA: vibe\n\nQ: slay\nA: slay\n\nQ: bussin\nA: bussin\n",
+        "prediction": "based",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "cool",
+        "prediction": "cool",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 32,
+    "query_index": 2540,
+    "query_input": "arm",
+    "gold": "bras",
+    "arms": {
+      "raw_baseline": {
+        "output": " bras\n\nQ: house\nA: maison\n\nQ: tree\nA: arbre\n\nQ: book\nA: livre\n",
+        "prediction": "bras",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "bras",
+        "prediction": "bras",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 33,
+    "query_index": 6133,
+    "query_input": "dimension",
+    "gold": "dimension",
+    "arms": {
+      "raw_baseline": {
+        "output": " dimension\n\nQ: equity\nA: equity\n\nQ: liability\nA: liability\n\nQ: revenue\nA: revenue\n",
+        "prediction": "dimension",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "dimension",
+        "prediction": "dimension",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 34,
+    "query_index": 3789,
+    "query_input": "encouraged",
+    "gold": "encouragées",
+    "arms": {
+      "raw_baseline": {
+        "output": " encouraged\n\nQ: beautiful\nA: beautiful\n\nQ: quickly\nA: quickly\n\nQ: happiness\nA: happiness\n",
+        "prediction": "encouraged",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "motivated",
+        "prediction": "motivated",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 35,
+    "query_index": 902,
+    "query_input": "regional",
+    "gold": "régionales",
+    "arms": {
+      "raw_baseline": {
+        "output": " regional\n\nQ: frequently\nA: frequently\n\nQ: occasionally\nA: occasionally\n\nQ: seldom\nA: seldom\n",
+        "prediction": "regional",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "local",
+        "prediction": "local",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 36,
+    "query_index": 4233,
+    "query_input": "embassy",
+    "gold": "ambassade",
+    "arms": {
+      "raw_baseline": {
+        "output": " consulate\n\nQ: glacier\nA: iceberg\n\nQ: melody\nA: harmony\n\nQ: orchard\nA: vineyard\n",
+        "prediction": "consulate",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "diplomacy",
+        "prediction": "diplomacy",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 37,
+    "query_index": 5455,
+    "query_input": "spy",
+    "gold": "espion",
+    "arms": {
+      "raw_baseline": {
+        "output": " espion\n\nQ: stay\nA: rester\n\nQ: stop\nA: arrêter\n\nQ: study\nA: étudier\n",
+        "prediction": "espion",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "espion",
+        "prediction": "espion",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 38,
+    "query_index": 163,
+    "query_input": "general",
+    "gold": "généraux",
+    "arms": {
+      "raw_baseline": {
+        "output": " generale\n\nQ: similar\nA: simile\n\nQ: possible\nA: possibile\n\nQ: terrible\nA: terribile\n\nQ: complete\nA: completo\n\nQ: simple\nA: semplice\n\nQ: incredible\nA: incredibile\n\nQ: responsible\nA: responsabile\n\nQ: available\nA: disponibile\n",
+        "prediction": "generale",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "generale",
+        "prediction": "generale",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 39,
+    "query_index": 4093,
+    "query_input": "regime",
+    "gold": "régime",
+    "arms": {
+      "raw_baseline": {
+        "output": " government\n\nQ: solace\nA: comfort\n\nQ: verbose\nA: wordy\n\nQ: ubiquitous\nA: everywhere",
+        "prediction": "government",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "government",
+        "prediction": "government",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 40,
+    "query_index": 6068,
+    "query_input": "rendered",
+    "gold": "rendue",
+    "arms": {
+      "raw_baseline": {
+        "output": " rendu\n\nQ: resolve\nA: résoudre\n\nQ: release\nA: relâcher\n\nQ: remain\nA: rester\n\nQ: remark\nA: remarque\n\nQ: remove\nA: retirer\n\nQ: renew\nA: renouveler\n\nQ: repeat\nA: répéter\n\nQ: replace\nA: remplacer\n\nQ: reply\nA: répondre\n\nQ: report\nA: rapport\n\nQ: request\nA: requête\n\nQ: require\nA: exiger\n\nQ: rescue\nA: secourir\n\nQ: reserve\nA: réserve\n\nQ: resist\nA: résister\n\nQ: respect\nA: respect\n\nQ: respond\nA: répondre\n\nQ: restore\nA: restaurer\n\nQ: restrain\nA: restreindre\n\nQ: retire\nA: retraite\n\nQ: reveal\nA: révéler\n\nQ: review\nA: revoir\n\nQ: revise\nA: réviser\n\nQ: reward\nA: récompense\n\nQ: revolve\nA: tourner\n\nQ: reward\nA: récompense",
+        "prediction": "rendu",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "rendu",
+        "prediction": "rendu",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 41,
+    "query_index": 1937,
+    "query_input": "brigade",
+    "gold": "brigade",
+    "arms": {
+      "raw_baseline": {
+        "output": " brigâde\n\nQ: plateau\nA: plâtô\n\nQ: ballet\nA: balê\n\nQ: bureau\nA: burêô\n",
+        "prediction": "brigâde",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "brigade",
+        "prediction": "brigade",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 42,
+    "query_index": 2247,
+    "query_input": "returning",
+    "gold": "retournant",
+    "arms": {
+      "raw_baseline": {
+        "output": " returning\n\nQ: running\nA: running\n\nQ: jumping\nA: jumping\n\nQ: singing\nA: singing\n",
+        "prediction": "returning",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "returning",
+        "prediction": "returning",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 43,
+    "query_index": 4216,
+    "query_input": "latino",
+    "gold": "latino",
+    "arms": {
+      "raw_baseline": {
+        "output": " latin\n\nQ: orange\nA: orange\n\nQ: piano\nA: piano\n\nQ: zebra\nA: zebra",
+        "prediction": "latin",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "latin",
+        "prediction": "latin",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 44,
+    "query_index": 2468,
+    "query_input": "chapel",
+    "gold": "chapelle",
+    "arms": {
+      "raw_baseline": {
+        "output": " chapel\n\nQ: google\nA: google\n\nQ: amazon\nA: amazon\n\nQ: microsoft\nA: microsoft\n",
+        "prediction": "chapel",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "chapel",
+        "prediction": "chapel",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 45,
+    "query_index": 6424,
+    "query_input": "slight",
+    "gold": "légère",
+    "arms": {
+      "raw_baseline": {
+        "output": " léger\n\nQ: happy\nA: heureux\n\nQ: beautiful\nA: beau\n\nQ: big\nA: grand\n",
+        "prediction": "léger",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "léger",
+        "prediction": "léger",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 46,
+    "query_index": 2163,
+    "query_input": "adult",
+    "gold": "adulte",
+    "arms": {
+      "raw_baseline": {
+        "output": " adult\n\nQ: animal\nA: animal\n\nQ: apple\nA: apple\n\nQ: answer\nA: answer\n",
+        "prediction": "adult",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "adult",
+        "prediction": "adult",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 47,
+    "query_index": 1644,
+    "query_input": "scale",
+    "gold": "echelle",
+    "arms": {
+      "raw_baseline": {
+        "output": " échelle\n\nQ: blue\nA: bleu\n\nQ: to\nA: à\n\nQ: yes\nA: oui\n\nQ: now\nA: maintenant\n\nQ: here\nA: ici\n\nQ: what\nA: quoi\n\nQ: and\nA: et\n\nQ: I\nA: je\n",
+        "prediction": "échelle",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "pesanteur",
+        "prediction": "pesanteur",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 48,
+    "query_index": 6097,
+    "query_input": "jorge",
+    "gold": "jorge",
+    "arms": {
+      "raw_baseline": {
+        "output": " jorge\n\nQ: cat\nA: chat\n\nQ: dog\nA: chien\n\nQ: house\nA: maison\n\nQ: car\nA: voiture\n\nQ: book\nA: livre\n\nQ: tree\nA: arbre\n\nQ: sun\nA: soleil\n\nQ: water\nA: eau\n",
+        "prediction": "jorge",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "Jorge",
+        "prediction": "Jorge",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 49,
+    "query_index": 3288,
+    "query_input": "printed",
+    "gold": "imprimé",
+    "arms": {
+      "raw_baseline": {
+        "output": " printed\n\nQ: orange\nA: orange\n\nQ: simple\nA: simple\n\nQ: purple\nA: purple\n",
+        "prediction": "printed",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "printed",
+        "prediction": "printed",
+        "correct": false
+      }
+    }
+  }
+]

@@ -1,0 +1,4 @@
+shots,n,reference_raw_accuracy,reproduced_raw_accuracy,chat_accuracy
+1,50,0.14,0.14,0.14
+2,50,0.38,0.38,0.4
+4,50,0.52,0.5,0.5

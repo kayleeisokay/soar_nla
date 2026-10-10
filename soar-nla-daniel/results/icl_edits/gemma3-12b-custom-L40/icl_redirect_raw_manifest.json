@@ -1,0 +1,66 @@
+{
+  "config": {
+    "name": "gemma3-12b-custom-L40",
+    "target": "google/gemma-3-12b-it",
+    "backend": "easynla",
+    "av": "achand45/gemma-3-12b-it-nla-L40:rl_vllm/iter_000400",
+    "ar": "achand45/gemma-3-12b-it-nla-L40:rl_vllm/critic_latest",
+    "sidecar": "achand45/gemma-3-12b-it-nla-L40:rl_vllm/nla_meta.yaml",
+    "layer": 40,
+    "n_layers": 48,
+    "sweep_layers": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      47
+    ]
+  },
+  "format": "raw",
+  "tasks": [
+    "antonym",
+    "capitalize",
+    "country-capital",
+    "english-french",
+    "present-past",
+    "singular-plural"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "av_draws_per_position": 3,
+  "arms": [
+    "roundtrip",
+    "edited",
+    "substitute_only",
+    "rewrite_only",
+    "noop",
+    "template",
+    "donor"
+  ],
+  "patch_spans": [
+    "last1",
+    "last4",
+    "query+last4",
+    "query"
+  ],
+  "code": "nla_text_edits.experiments.icl.run",
+  "started_unix": 1791472832.964938
+}

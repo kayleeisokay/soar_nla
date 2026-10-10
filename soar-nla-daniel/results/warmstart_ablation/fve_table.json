@@ -1,0 +1,35 @@
+{
+  "max_step": 600,
+  "runs": {
+    "A": {
+      "csv": "fve_curve_A_warmstart_kl001.csv",
+      "last_step": 600,
+      "peak_fve_train": 0.758875,
+      "peak_fve_train_pct": "75.9",
+      "peak_step": 537,
+      "heldout_fve": 0.744,
+      "heldout_fve_pct": "74.4",
+      "heldout_step": 600
+    },
+    "B": {
+      "csv": "fve_curve_B_cold_kl0.csv",
+      "last_step": 599,
+      "peak_fve_train": 0.7225,
+      "peak_fve_train_pct": "72.3",
+      "peak_step": 537,
+      "heldout_fve": 0.709,
+      "heldout_fve_pct": "70.9",
+      "heldout_step": 590
+    },
+    "C": {
+      "csv": "fve_curve_C_cold_kl001.csv",
+      "last_step": 600,
+      "peak_fve_train": 0.689375,
+      "peak_fve_train_pct": "68.9",
+      "peak_step": 597,
+      "heldout_fve": 0.665,
+      "heldout_fve_pct": "66.5",
+      "heldout_step": 600
+    }
+  }
+}

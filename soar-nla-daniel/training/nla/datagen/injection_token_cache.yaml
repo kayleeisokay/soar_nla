@@ -1,0 +1,12 @@
+Qwen/Qwen2.5-7B-Instruct:
+  char: ㈎
+  token_id: 149705
+Qwen/Qwen3-8B:
+  char: ㈎
+  token_id: 149705
+google/gemma-2-9b-it:
+  char: ㈀
+  token_id: 255423
+meta-llama/Llama-3.3-70B-Instruct:
+  char: ㎡
+  token_id: 105565

@@ -1,0 +1,193 @@
+{
+  "target": "google/gemma-3-12b-it",
+  "target_revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+  "av": "kitft/nla-gemma3-12b-L32-av",
+  "av_revision": "7aec22599e8a9cd533564868999b443fcc963cf4",
+  "ar": "kitft/nla-gemma3-12b-L32-ar",
+  "ar_revision": "3d6901d8243182d642af9dea452ca91549a94615",
+  "backend": "kitft",
+  "layer": 32,
+  "pair": "official released NLA",
+  "items_per_task": 10,
+  "seeds_per_item": 10,
+  "methods": {
+    "answer_only": "Answer only",
+    "task_only": "Task only",
+    "answer+task": "Answer + task",
+    "edited": "Full edit (+ final-unit rewrite)",
+    "donor": "Donor"
+  },
+  "full_edit": "answer substitutions + task-description substitutions + final-paragraph rewrite",
+  "spans": {
+    "last1": "Single final token",
+    "last4": "Four tokens"
+  },
+  "patch_positions": {
+    "raw": "final colon, or final query token plus newline/A/colon",
+    "chat": "final header token, or all four assistant-header tokens"
+  },
+  "results": {
+    "raw": {
+      "per_task": {
+        "french->spanish": {
+          "last1": {
+            "answer_only": 0.0,
+            "task_only": 0.0,
+            "answer+task": 0.21,
+            "edited": 0.77,
+            "donor": 0.52
+          },
+          "last4": {
+            "answer_only": 0.0,
+            "task_only": 0.0,
+            "answer+task": 0.26,
+            "edited": 0.82,
+            "donor": 0.7
+          }
+        },
+        "capital->currency": {
+          "last1": {
+            "answer_only": 0.0,
+            "task_only": 0.01,
+            "answer+task": 0.34,
+            "edited": 0.77,
+            "donor": 1.0
+          },
+          "last4": {
+            "answer_only": 0.0,
+            "task_only": 0.01,
+            "answer+task": 0.35,
+            "edited": 0.81,
+            "donor": 0.99
+          }
+        },
+        "antonym->comparative": {
+          "last1": {
+            "answer_only": 0.17,
+            "task_only": 0.0,
+            "answer+task": 0.77,
+            "edited": 1.0,
+            "donor": 1.0
+          },
+          "last4": {
+            "answer_only": 0.17,
+            "task_only": 0.0,
+            "answer+task": 0.8,
+            "edited": 1.0,
+            "donor": 1.0
+          }
+        }
+      },
+      "overall": {
+        "last1": {
+          "answer_only": 0.05666666666666667,
+          "task_only": 0.0033333333333333335,
+          "answer+task": 0.44,
+          "edited": 0.8466666666666667,
+          "donor": 0.84
+        },
+        "last4": {
+          "answer_only": 0.05666666666666667,
+          "task_only": 0.0033333333333333335,
+          "answer+task": 0.47000000000000003,
+          "edited": 0.8766666666666666,
+          "donor": 0.8966666666666666
+        }
+      },
+      "controls": {
+        "native_gold_rate": 0.9366666666666666,
+        "last1": {
+          "roundtrip": 0.0,
+          "noop": 0.0
+        },
+        "last4": {
+          "roundtrip": 0.0,
+          "noop": 0.0
+        }
+      },
+      "trials": 300,
+      "source": "gemma3-12b/icl_switch_raw.json"
+    },
+    "chat": {
+      "per_task": {
+        "french->spanish": {
+          "last1": {
+            "answer_only": 0.01,
+            "task_only": 0.03,
+            "answer+task": 0.41,
+            "edited": 0.9,
+            "donor": 0.0
+          },
+          "last4": {
+            "answer_only": 0.01,
+            "task_only": 0.03,
+            "answer+task": 0.48,
+            "edited": 0.96,
+            "donor": 0.35
+          }
+        },
+        "capital->currency": {
+          "last1": {
+            "answer_only": 0.0,
+            "task_only": 0.0,
+            "answer+task": 0.6,
+            "edited": 0.95,
+            "donor": 0.78
+          },
+          "last4": {
+            "answer_only": 0.0,
+            "task_only": 0.0,
+            "answer+task": 0.75,
+            "edited": 0.99,
+            "donor": 1.0
+          }
+        },
+        "antonym->comparative": {
+          "last1": {
+            "answer_only": 0.03,
+            "task_only": 0.0,
+            "answer+task": 0.38,
+            "edited": 1.0,
+            "donor": 0.77
+          },
+          "last4": {
+            "answer_only": 0.05,
+            "task_only": 0.0,
+            "answer+task": 0.4,
+            "edited": 1.0,
+            "donor": 1.0
+          }
+        }
+      },
+      "overall": {
+        "last1": {
+          "answer_only": 0.013333333333333334,
+          "task_only": 0.01,
+          "answer+task": 0.4633333333333334,
+          "edited": 0.9500000000000001,
+          "donor": 0.5166666666666667
+        },
+        "last4": {
+          "answer_only": 0.02,
+          "task_only": 0.01,
+          "answer+task": 0.5433333333333333,
+          "edited": 0.9833333333333334,
+          "donor": 0.7833333333333333
+        }
+      },
+      "controls": {
+        "native_gold_rate": 0.95,
+        "last1": {
+          "roundtrip": 0.0,
+          "noop": 0.0
+        },
+        "last4": {
+          "roundtrip": 0.0,
+          "noop": 0.0
+        }
+      },
+      "trials": 300,
+      "source": "gemma3-12b/icl_switch.json"
+    }
+  }
+}

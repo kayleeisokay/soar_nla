@@ -1,0 +1,902 @@
+[
+  {
+    "position": 0,
+    "query_index": 4001,
+    "query_input": "susan",
+    "gold": "susan",
+    "arms": {
+      "raw_baseline": {
+        "output": " susan\n\nQ: twenty\nA: vingt\n\nQ: johnson\nA: johnson\n\nQ: thirty\nA: trente\n\nQ: smith\nA: smith\n\nQ: forty\nA: quarante\n\nQ: brown\nA: brown\n\nQ: sixty\nA: soixante\n\nQ: taylor\nA: taylor\n\nQ: seventy\nA: soixante-dix\n\nQ: wilson\nA: wilson\n\nQ: eighty\nA: quatre-vingts\n\nQ: davis\nA: davis\n\nQ: ninety\nA: quatre-vingt-dix\n\nQ: miller\nA: miller\n\nQ: one hundred\nA: cent\n\nQ: anderson\nA: anderson\n",
+        "prediction": "susan",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "susan",
+        "prediction": "susan",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 1,
+    "query_index": 1357,
+    "query_input": "kong",
+    "gold": "kong",
+    "arms": {
+      "raw_baseline": {
+        "output": " kong\n\nQ: greece\nA: grece\n\nQ: japan\nA: japon\n\nQ: mexico\nA: mexique\n\nQ: argentina\nA: argentine\n\nQ: canada\nA: canada\n\nQ: australia\nA: australie\n\nQ: brazil\nA: brazil\n\nQ: germany\nA: allemagne\n\nQ: italy\nA: italie\n\nQ: spain\nA: espagne\n\nQ: france\nA: france\n\nQ: russia\nA: russie\n\nQ: china\nA: chine\n\nQ: england\nA: angleterre\n\nQ: ireland\nA: irlande\n\nQ: scotland\nA: ecosse\n\nQ: wales\nA: paysdegalles\n\nQ: denmark\nA: danemark\n\nQ: sweden\nA: suède\n\nQ: norway\nA: norvege\n\nQ: finland\nA: finlande\n\nQ: poland\nA: pologne\n\nQ: hungary\nA: hongrie\n\nQ: switzerland\nA: suisse\n\nQ: austria\nA: autriche\n\nQ: belgium\nA: belgique\n\nQ: netherlands\nA: paysbas\n\nQ: lux",
+        "prediction": "kong",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "kong",
+        "prediction": "kong",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 2,
+    "query_index": 1770,
+    "query_input": "bronze",
+    "gold": "bronze",
+    "arms": {
+      "raw_baseline": {
+        "output": " bronze\n\nQ: orange\nA: orange\n\nQ: yellow\nA: jaune\n\nQ: purple\nA: violet\n\nQ: green\nA: vert\n\nQ: blue\nA: bleu\n",
+        "prediction": "bronze",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "bronze",
+        "prediction": "bronze",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 3,
+    "query_index": 5168,
+    "query_input": "dimensions",
+    "gold": "dimensions",
+    "arms": {
+      "raw_baseline": {
+        "output": " dimension\n\nQ: challenge\nA: challenge\n",
+        "prediction": "dimension",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "dimensions",
+        "prediction": "dimensions",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 4,
+    "query_index": 901,
+    "query_input": "theory",
+    "gold": "théories",
+    "arms": {
+      "raw_baseline": {
+        "output": " théorie\n\nQ: theories\nA: théories\n\nQ: analysis\nA: analyse\n\nQ: analyses\nA: analyses\n\nQ: process\nA: processus\n\nQ: processes\nA: processus\n\nQ: system\nA: système\n\nQ: systems\nA: systèmes\n\nQ: structure\nA: structure\n\nQ: structures\nA: structures\n\nQ: function\nA: fonction\n\nQ: functions\nA: fonctions\n\nQ: model\nA: modèle\n\nQ: models\nA: modèles\n\nQ: variable\nA: variable\n\nQ: variables\nA: variables\n\nQ: concept\nA: concept\n\nQ: concepts\nA: concepts\n\nQ: approach\nA: approche\n\nQ: approaches\nA: approches\n\nQ: method\nA: méthode\n\nQ: methods\nA: méthodes\n\nQ: data\nA: données\n\nQ: data\nA: données\n\nQ: information\nA: information\n\nQ: information\nA: information\n\nQ: research\nA: recherche\n\nQ: research\nA: recherche\n\nQ: study\nA: étude\n\nQ: studies\nA: études\n\nQ: development\nA: développement\n\nQ: developments\nA: développements\n\nQ: change",
+        "prediction": "théorie",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "théorie",
+        "prediction": "théorie",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 5,
+    "query_index": 4442,
+    "query_input": "dependent",
+    "gold": "dépendant",
+    "arms": {
+      "raw_baseline": {
+        "output": " dépendant\n\nQ: beautiful\nA: beau\n\nQ: to be\nA: être\n\nQ: to have\nA: avoir\n\nQ: to do\nA: faire\n\nQ: to go\nA: aller\n",
+        "prediction": "dépendant",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "dépendant",
+        "prediction": "dépendant",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 6,
+    "query_index": 4224,
+    "query_input": "default",
+    "gold": "défaut",
+    "arms": {
+      "raw_baseline": {
+        "output": " défaut\n",
+        "prediction": "défaut",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "défaut",
+        "prediction": "défaut",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 7,
+    "query_index": 775,
+    "query_input": "sure",
+    "gold": "sure",
+    "arms": {
+      "raw_baseline": {
+        "output": " sûr\n\nQ: beautiful\nA: beau\n\nQ: happy\nA: heureux\n\nQ: important\nA: important\n\nQ: possible\nA: possible\n\nQ: difficult\nA: difficile",
+        "prediction": "sûr",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "certain",
+        "prediction": "certain",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 8,
+    "query_index": 4289,
+    "query_input": "kerala",
+    "gold": "kerala",
+    "arms": {
+      "raw_baseline": {
+        "output": " kerala\n",
+        "prediction": "kerala",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "kerala",
+        "prediction": "kerala",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 9,
+    "query_index": 1782,
+    "query_input": "improve",
+    "gold": "améliorez",
+    "arms": {
+      "raw_baseline": {
+        "output": " améliorer\n\nQ: table\nA: table\n\nQ: window\nA: fenêtre\n\nQ: music\nA: musique\n\nQ: book\nA: livre\n\nQ: house\nA: maison\n",
+        "prediction": "améliorer",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "améliorer",
+        "prediction": "améliorer",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 10,
+    "query_index": 5150,
+    "query_input": "eugene",
+    "gold": "eugène",
+    "arms": {
+      "raw_baseline": {
+        "output": " Eugène\n",
+        "prediction": "Eugène",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "eugène",
+        "prediction": "eugène",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 11,
+    "query_index": 6304,
+    "query_input": "reflects",
+    "gold": "reflète",
+    "arms": {
+      "raw_baseline": {
+        "output": " reflète\n\nQ: knowledge\nA: connaissance\n",
+        "prediction": "reflète",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "reflete",
+        "prediction": "reflete",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 12,
+    "query_index": 5832,
+    "query_input": "divorced",
+    "gold": "divorcées",
+    "arms": {
+      "raw_baseline": {
+        "output": " divorced\n",
+        "prediction": "divorced",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "divorced",
+        "prediction": "divorced",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 13,
+    "query_index": 6018,
+    "query_input": "fac",
+    "gold": "fac",
+    "arms": {
+      "raw_baseline": {
+        "output": " faci\n\nQ: car\nA: voiture\n\nQ: cat\nA: chat\n\nQ: dog\nA: chien\n\nQ: house\nA: maison\n\nQ: tree\nA: arbre",
+        "prediction": "faci",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "faciale",
+        "prediction": "faciale",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 14,
+    "query_index": 4580,
+    "query_input": "plastic",
+    "gold": "plastique",
+    "arms": {
+      "raw_baseline": {
+        "output": " plastique\n",
+        "prediction": "plastique",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "plastique",
+        "prediction": "plastique",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 15,
+    "query_index": 3275,
+    "query_input": "symphony",
+    "gold": "symphonique",
+    "arms": {
+      "raw_baseline": {
+        "output": " symphonie\n",
+        "prediction": "symphonie",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "symphonie",
+        "prediction": "symphonie",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 16,
+    "query_index": 2635,
+    "query_input": "baltimore",
+    "gold": "baltimore",
+    "arms": {
+      "raw_baseline": {
+        "output": " baltimore\n",
+        "prediction": "baltimore",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "baltimore",
+        "prediction": "baltimore",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 17,
+    "query_index": 2271,
+    "query_input": "interior",
+    "gold": "interieur",
+    "arms": {
+      "raw_baseline": {
+        "output": " intérieur\n\nQ: analysis\nA: analyse\n\nQ: revolution\nA: révolution\n\nQ: memory\nA: mémoire\n\nQ: silence\nA: silenceux\n\nQ: courage\nA: courageux\n",
+        "prediction": "intérieur",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "intérieur",
+        "prediction": "intérieur",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 18,
+    "query_index": 1891,
+    "query_input": "joint",
+    "gold": "joint",
+    "arms": {
+      "raw_baseline": {
+        "output": " commun\n\nQ: similar\nA: semblable\n\nQ: often\nA: souvent\n\nQ: quickly\nA: rapidement\n\nQ: beautiful\nA: beau\n\nQ: important\nA: important\n",
+        "prediction": "commun",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "commun",
+        "prediction": "commun",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 19,
+    "query_index": 6041,
+    "query_input": "dubbed",
+    "gold": "surnommé",
+    "arms": {
+      "raw_baseline": {
+        "output": " surnommé\n\nQ: run\nA: courir\n\nQ: blue\nA: bleu\n\nQ: red\nA: rouge\n\nQ: green\nA: vert\n\nQ: yellow\nA: jaune\n\nQ: white\nA: blanc\n\nQ: black\nA: noir\n\nQ: brown\nA: marron\n\nQ: orange\nA: orange\n\nQ: purple\nA: violet\n\nQ: pink\nA: rose\n\nQ: gray\nA: gris\n\nQ: gold\nA: or\n\nQ: silver\nA: argent\n\nQ: diamond\nA: diamant\n\nQ: ruby\nA: rubis\n\nQ: pearl\nA: perle\n\nQ: emerald\nA: émeraude\n\nQ: sapphire\nA: saphir\n\nQ: sun\nA: soleil\n\nQ: moon\nA: lune\n\nQ: star\nA: étoile\n\nQ: cloud\nA: nuage\n\nQ: rain\nA: pluie\n\nQ: snow\nA: neige\n\nQ: wind\nA: vent\n\nQ: fire\nA: feu\n\nQ: water\nA: eau\n\nQ: earth\nA: terre\n\nQ: air\nA: air\n\nQ:",
+        "prediction": "surnommé",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "baptisé",
+        "prediction": "baptisé",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 20,
+    "query_index": 4893,
+    "query_input": "recurring",
+    "gold": "récurrents",
+    "arms": {
+      "raw_baseline": {
+        "output": " récurrent\n\nQ: recline\nA: s'allonger\n\nQ: reapply\nA: réappliquer\n\nQ: reorder\nA: réorganiser\n\nQ: retrace\nA: retracer\n\nQ: retest\nA: retester\n",
+        "prediction": "récurrent",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "récurrent",
+        "prediction": "récurrent",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 21,
+    "query_index": 486,
+    "query_input": "lead",
+    "gold": "plomb",
+    "arms": {
+      "raw_baseline": {
+        "output": " mener\n",
+        "prediction": "mener",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "plomb",
+        "prediction": "plomb",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 22,
+    "query_index": 2610,
+    "query_input": "leads",
+    "gold": "prospects",
+    "arms": {
+      "raw_baseline": {
+        "output": " mène\n",
+        "prediction": "mène",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "mène",
+        "prediction": "mène",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 23,
+    "query_index": 5523,
+    "query_input": "belfast",
+    "gold": "belfast",
+    "arms": {
+      "raw_baseline": {
+        "output": " belfast\n\nQ: orange\nA: orange\n\nQ: guitar\nA: guitar\n\nQ: bicycle\nA: bicycle\n\nQ: elephant\nA: elephant\n\nQ: kangaroo\nA: kangaroo",
+        "prediction": "belfast",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "belfast",
+        "prediction": "belfast",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 24,
+    "query_index": 2285,
+    "query_input": "fund",
+    "gold": "fonds",
+    "arms": {
+      "raw_baseline": {
+        "output": " fonds\n\nQ: address\nA: adresse\n\nQ: appeal\nA: appel\n\nQ: report\nA: rapport\n\nQ: design\nA: design\n\nQ: record\nA: record\n",
+        "prediction": "fonds",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "fonds",
+        "prediction": "fonds",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 25,
+    "query_index": 709,
+    "query_input": "olympics",
+    "gold": "olympiades",
+    "arms": {
+      "raw_baseline": {
+        "output": " olympique\n",
+        "prediction": "olympique",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "olympique",
+        "prediction": "olympique",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 26,
+    "query_index": 5787,
+    "query_input": "saxon",
+    "gold": "saxons",
+    "arms": {
+      "raw_baseline": {
+        "output": " saxon\n\nQ: argentina\nA: argentine\n\nQ: california\nA: californie\n\nQ: germany\nA: allemagne\n\nQ: australia\nA: australie\n\nQ: canada\nA: canada\n",
+        "prediction": "saxon",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "saxon",
+        "prediction": "saxon",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 27,
+    "query_index": 4923,
+    "query_input": "cylinder",
+    "gold": "cylindre",
+    "arms": {
+      "raw_baseline": {
+        "output": " cylinder\n",
+        "prediction": "cylinder",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "cylinder",
+        "prediction": "cylinder",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 28,
+    "query_index": 4795,
+    "query_input": "episcopal",
+    "gold": "épiscopale",
+    "arms": {
+      "raw_baseline": {
+        "output": " episcopal\n",
+        "prediction": "episcopal",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "episcopal",
+        "prediction": "episcopal",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 29,
+    "query_index": 1519,
+    "query_input": "nationality",
+    "gold": "nationalité",
+    "arms": {
+      "raw_baseline": {
+        "output": " nationalité\n\nQ: chocolate\nA: chocolat\n\nQ: restaurant\nA: restaurant\n\nQ: television\nA: télévision\n\nQ: university\nA: université\n\nQ: computer\nA: ordinateur\n",
+        "prediction": "nationalité",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "nationalité",
+        "prediction": "nationalité",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 30,
+    "query_index": 880,
+    "query_input": "username",
+    "gold": "username",
+    "arms": {
+      "raw_baseline": {
+        "output": " nomdutilisateur\n",
+        "prediction": "nomdutilisateur",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "nomutilisateur",
+        "prediction": "nomutilisateur",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 31,
+    "query_index": 3760,
+    "query_input": "url",
+    "gold": "url",
+    "arms": {
+      "raw_baseline": {
+        "output": " url\n",
+        "prediction": "url",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "url",
+        "prediction": "url",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 32,
+    "query_index": 6363,
+    "query_input": "homer",
+    "gold": "homer",
+    "arms": {
+      "raw_baseline": {
+        "output": " homer\n\nQ: pizza\nA: pizza\n\nQ: google\nA: google\n\nQ: amazon\nA: amazon\n\nQ: apple\nA: apple\n\nQ: tesla\nA: tesla\n",
+        "prediction": "homer",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "homère",
+        "prediction": "homère",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 33,
+    "query_index": 187,
+    "query_input": "per",
+    "gold": "per",
+    "arms": {
+      "raw_baseline": {
+        "output": " par\n\nQ: to\nA: à\n\nQ: in\nA: en\n\nQ: of\nA: de\n\nQ: for\nA: pour\n\nQ: with\nA: avec\n\nQ: and\nA: et\n\nQ: the\nA: le\n\nQ: is\nA: est\n\nQ: that\nA: que\n\nQ: it\nA: il\n\nQ: on\nA: sur\n\nQ: be\nA: être\n\nQ: have\nA: avoir\n\nQ: do\nA: faire\n\nQ: say\nA: dire\n\nQ: go\nA: aller\n\nQ: get\nA: obtenir\n\nQ: make\nA: créer\n\nQ: know\nA: savoir\n\nQ: take\nA: prendre\n\nQ: see\nA: voir\n\nQ: come\nA: venir\n\nQ: think\nA: penser\n\nQ: look\nA: regarder\n\nQ: want\nA: vouloir\n\nQ: give\nA: donner\n\nQ: use\nA: utiliser\n\nQ: find\nA: trouver\n\nQ: tell\nA: raconter\n\nQ: ask\nA: demander\n\nQ: work\nA: travailler\n\nQ: seem\nA",
+        "prediction": "par",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "par",
+        "prediction": "par",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 34,
+    "query_index": 3916,
+    "query_input": "rocks",
+    "gold": "roches",
+    "arms": {
+      "raw_baseline": {
+        "output": " roches\n\nQ: orange\nA: orange\n\nQ: blue\nA: bleu\n\nQ: red\nA: rouge\n\nQ: green\nA: vert\n\nQ: yellow\nA: jaune\n",
+        "prediction": "roches",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "roches",
+        "prediction": "roches",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 35,
+    "query_index": 2903,
+    "query_input": "roof",
+    "gold": "toit",
+    "arms": {
+      "raw_baseline": {
+        "output": " toit\n",
+        "prediction": "toit",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "toit",
+        "prediction": "toit",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 36,
+    "query_index": 2049,
+    "query_input": "neutral",
+    "gold": "neutre",
+    "arms": {
+      "raw_baseline": {
+        "output": " neutre\n\nQ: orange\nA: orange\n\nQ: orange\nA: orange\n",
+        "prediction": "neutre",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "neutre",
+        "prediction": "neutre",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 37,
+    "query_index": 3563,
+    "query_input": "archaeological",
+    "gold": "archéologique",
+    "arms": {
+      "raw_baseline": {
+        "output": " archéologique\n\nQ: discovery\nA: découverte\n\nQ: civilization\nA: civilisation\n\nQ: ancient\nA: ancien\n\nQ: evidence\nA: preuve\n\nQ: artifacts\nA: artefacts\n\nQ: analysis\nA: analyse\n\nQ: interpretation\nA: interprétation\n\nQ: context\nA: contexte\n\nQ: significance\nA: signification\n\nQ: understanding\nA: compréhension\n\nQ: knowledge\nA: connaissance\n\nQ: research\nA: recherche\n\nQ: methodology\nA: méthodologie\n\nQ: sources\nA: sources\n\nQ: primary\nA: primaire\n\nQ: secondary\nA: secondaire\n\nQ: documents\nA: documents\n\nQ: records\nA: registres\n\nQ: inscriptions\nA: inscriptions\n\nQ: remains\nA: restes\n\nQ: settlements\nA: établissements\n\nQ: structures\nA: structures\n\nQ: tools\nA: outils\n\nQ: pottery\nA: poterie\n\nQ: textiles\nA: textiles\n\nQ: agriculture\nA: agriculture\n\nQ: trade\nA: commerce\n\nQ: society\nA: société\n\nQ: culture\nA: culture\n\nQ: religion\nA: religion\n\nQ: beliefs\nA: croy",
+        "prediction": "archéologique",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "archéologique",
+        "prediction": "archéologique",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 38,
+    "query_index": 1419,
+    "query_input": "cricket",
+    "gold": "criquets",
+    "arms": {
+      "raw_baseline": {
+        "output": " criquet\n\nQ: dance\nA: danse\n\nQ: doctor\nA: docteur\n\nQ: elephant\nA: éléphant\n\nQ: flower\nA: fleur\n\nQ: guitar\nA: guitare\n\nQ: hotel\nA: hôtel\n\nQ: island\nA: île\n\nQ: jacket\nA: veste\n\nQ: kangaroo\nA: kangourou\n\nQ: lemon\nA: citron\n\nQ: mountain\nA: montagne\n\nQ: number\nA: nombre\n\nQ: ocean\nA: océan\n\nQ: piano\nA: piano\n\nQ: question\nA: question\n\nQ: river\nA: rivière\n\nQ: soccer\nA: soccer\n\nQ: tomato\nA: tomate\n\nQ: umbrella\nA: parapluie\n\nQ: violin\nA: violon\n\nQ: window\nA: fenêtre\n\nQ: xylophone\nA: xylophone\n\nQ: zebra\nA: zèbre\n",
+        "prediction": "criquet",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "criquet",
+        "prediction": "criquet",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 39,
+    "query_index": 304,
+    "query_input": "using",
+    "gold": "utiliser",
+    "arms": {
+      "raw_baseline": {
+        "output": " utilisant\n\nQ: painting\nA: peinture\n\nQ: writing\nA: ecriture\n\nQ: cooking\nA: cuisine\n\nQ: singing\nA: chant\n\nQ: dancing\nA: danse\n",
+        "prediction": "utilisant",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "utilisant",
+        "prediction": "utilisant",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 40,
+    "query_index": 5841,
+    "query_input": "derek",
+    "gold": "derek",
+    "arms": {
+      "raw_baseline": {
+        "output": " derek\n",
+        "prediction": "derek",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "derek",
+        "prediction": "derek",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 41,
+    "query_index": 4316,
+    "query_input": "raw",
+    "gold": "cru",
+    "arms": {
+      "raw_baseline": {
+        "output": " cru\n\nQ: box\nA: boîte\n\nQ: fox\nA: renard\n\nQ: gas\nA: gaz\n\nQ: tax\nA: impôt\n\nQ: wax\nA: cire\n\nQ: bus\nA: autobus\n\nQ: plus\nA: plus\n\nQ: lens\nA: lentille\n\nQ: lens\nA: objectif\n\nQ: lens\nA: verre\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: optique\n\nQ: lens\nA: prisme\n\nQ: lens\nA: loupe\n\nQ: lens\nA: monocle\n\nQ: lens\nA: microscope\n\nQ: lens\nA: télescope\n\nQ: lens\nA: œil\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: verres\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: lentilles\n\nQ: lens\nA: lentilles",
+        "prediction": "cru",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "cru",
+        "prediction": "cru",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 42,
+    "query_index": 1444,
+    "query_input": "brothers",
+    "gold": "freres",
+    "arms": {
+      "raw_baseline": {
+        "output": " frères\n\nQ: argentina\nA: argentine\n\nQ: portugal\nA: portugais\n\nQ: germany\nA: allemand\n\nQ: mexico\nA: mexicain\n\nQ: canada\nA: canadien\n",
+        "prediction": "frères",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "frères",
+        "prediction": "frères",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 43,
+    "query_index": 1314,
+    "query_input": "jean",
+    "gold": "jean",
+    "arms": {
+      "raw_baseline": {
+        "output": " jean\n\nQ: chocolate\nA: chocolat\n\nQ: ballet\nA: ballet\n\nQ: souvenir\nA: souvenir\n\nQ: garage\nA: garage\n\nQ: cafe\nA: café\n",
+        "prediction": "jean",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "jean\n",
+        "prediction": "jean",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 44,
+    "query_index": 3524,
+    "query_input": "statue",
+    "gold": "statue",
+    "arms": {
+      "raw_baseline": {
+        "output": " statue\n\nQ: guitar\nA: guitare\n\nQ: orange\nA: orange\n\nQ: camera\nA: caméra\n\nQ: bicycle\nA: bicyclette\n\nQ: coffee\nA: café\n",
+        "prediction": "statue",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "statue",
+        "prediction": "statue",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 45,
+    "query_index": 6139,
+    "query_input": "succeed",
+    "gold": "réussir",
+    "arms": {
+      "raw_baseline": {
+        "output": " succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA: succeed\n\nQ: succeed\nA:",
+        "prediction": "succeed",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "succeed",
+        "prediction": "succeed",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 46,
+    "query_index": 5840,
+    "query_input": "silva",
+    "gold": "silva",
+    "arms": {
+      "raw_baseline": {
+        "output": " forêt\n\nQ: aqua\nA: eau\n\nQ: luna\nA: lune\n\nQ: stella\nA: étoile\n\nQ: terra\nA: terre\n\nQ: sol\nA: soleil\n\nQ: ignis\nA: feu\n\nQ: ventus\nA: vent\n\nQ: mare\nA: mer\n\nQ: mons\nA: montagne\n\nQ: flumen\nA: rivière\n\nQ: avis\nA: oiseau\n\nQ: leo\nA: lion\n\nQ: canis\nA: chien\n\nQ: equus\nA: cheval\n\nQ: homo\nA: homme\n\nQ: femina\nA: femme\n\nQ: puer\nA: garçon\n\nQ: puella\nA: fille\n\nQ: rex\nA: roi\n\nQ: regina\nA: reine\n\nQ: bellum\nA: guerre\n\nQ: pax\nA: paix\n\nQ: vita\nA: vie\n\nQ: mors\nA: mort\n\nQ: amor\nA: amour\n\nQ: spes\nA: espoir\n\nQ: timor\nA: peur\n\nQ: lux\nA: lumière\n\nQ: umbra\nA: ombre\n\nQ: veritas\nA: vérité",
+        "prediction": "forêt",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "Silva",
+        "prediction": "Silva",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 47,
+    "query_index": 5770,
+    "query_input": "rap",
+    "gold": "rappeur",
+    "arms": {
+      "raw_baseline": {
+        "output": " rap\n\nQ: jazz\nA: jazz\n\nQ: tango\nA: tango\n\nQ: salsa\nA: salsa\n\nQ: waltz\nA: waltz\n\nQ: polka\nA: polka\n",
+        "prediction": "rap",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "rap",
+        "prediction": "rap",
+        "correct": false
+      }
+    }
+  },
+  {
+    "position": 48,
+    "query_index": 6319,
+    "query_input": "beatles",
+    "gold": "beatles",
+    "arms": {
+      "raw_baseline": {
+        "output": " Beatles\n\nQ: chocolate\nA: chocolat\n\nQ: orange\nA: orange\n\nQ: computer\nA: ordinateur\n\nQ: television\nA: télévision\n\nQ: bicycle\nA: vélo\n",
+        "prediction": "Beatles",
+        "correct": true
+      },
+      "chat_baseline": {
+        "output": "Beatles",
+        "prediction": "Beatles",
+        "correct": true
+      }
+    }
+  },
+  {
+    "position": 49,
+    "query_index": 5996,
+    "query_input": "electron",
+    "gold": "électrons",
+    "arms": {
+      "raw_baseline": {
+        "output": " électron\n\nQ: orange\nA: orange\n\nQ: guitar\nA: guitare\n\nQ: window\nA: fenêtre\n\nQ: table\nA: table\n\nQ: camera\nA: caméra\n",
+        "prediction": "électron",
+        "correct": false
+      },
+      "chat_baseline": {
+        "output": "électron",
+        "prediction": "électron",
+        "correct": false
+      }
+    }
+  }
+]

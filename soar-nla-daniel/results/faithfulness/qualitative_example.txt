@@ -1,0 +1,186 @@
+ROW 1920 - a natural-ending row where the accurate explanation loses by 0.964 FVE
+achand45/gemma-3-12b-it-nla-L32, RL stage (rl_vllm/iter_000400 + critic_latest)
+Generated 2026-09-11
+
+==============================================================================
+1. ROW METADATA
+==============================================================================
+
+row_rank          1920
+doc_id            finefineweb_100k_v2.parquet:train:3929
+source tokens     78   target tokens 77
+passage tokens    77   truncated: False
+activation        Gemma-3-12B-it, layer_index=32 (output of decoder block 32)
+                  taken at the FINAL token of the passage below; ||v|| = 58675.7
+
+==============================================================================
+2. PASSAGE (exactly what the target model read)
+==============================================================================
+
+Spillways are constructed to evacuate the flood discharge safely not to let the flood wave overtop the dam body. There are different types of spillways, ogee type being the conventional one. Stepped spillway is an example of nonconventional spillways. The turbulent flow over stepped spillway was studied numerically by using the Flow-3D package. Different fluid flow characteristics such
+
+==============================================================================
+3. TOKEN SELECTED
+==============================================================================
+
+The activation is read at position 76 (0-indexed), the last token.
+  token id   1288
+  token text ' such'
+
+Final 12 tokens of the passage, in order:
+  [ 65] id=    506  ' the'
+  [ 66] id=  19179  ' Flow'
+  [ 67] id= 236772  '-'
+  [ 68] id= 236800  '3'
+  [ 69] id= 236796  'D'
+  [ 70] id=   8289  ' package'
+  [ 71] id= 236761  '.'
+  [ 72] id=  29239  ' Different'
+  [ 73] id=  11756  ' fluid'
+  [ 74] id=   2727  ' flow'
+  [ 75] id=   9507  ' characteristics'
+  [ 76] id=   1288  ' such'  <-- ACTIVATION READ HERE
+
+This is a complete word mid-sentence, not a subword fragment: the passage
+ends '...Different fluid flow characteristics such' and wants 'as ...' next.
+
+==============================================================================
+4. AV PROMPT (full, 108 tokens - identical for every row)
+==============================================================================
+
+The AV never sees text. The activation is injected at the U+3239C marker char
+by norm-matched residual add on the output of layers[1] (Karvonen injection).
+
+<bos><start_of_turn>user
+You are a meticulous AI researcher conducting an important investigation into activation vectors from a language model. Your overall task is to describe the semantic content of that activation vector.
+
+We will pass the vector enclosed in <concept> tags into your context. You must then produce an explanation for the vector, enclosed within <explanation> tags. The explanation consists of 2-3 text snippets describing that vector.
+
+Here is the vector:
+
+<concept>㈜</concept>
+
+Please provide an explanation.<end_of_turn>
+<start_of_turn>model
+
+
+==============================================================================
+5. AV MODEL RESPONSE (full raw generation, greedy, max_new_tokens=256)
+==============================================================================
+
+NOTE: bf16 kernel selection depends on batch composition, so re-running a row
+alone does not reproduce the stored string bit-for-bit. Both versions are given.
+
+--- 5a. RE-RUN, raw including tags (this is what the tag structure looks like) ---
+<explanation>
+Academic/technical paper on hydraulic structures, establishing Japanese engineering context for chute spillway design of stepped spillways.
+
+The sentence "The flow regime of a stepped spillway is characterized by a supercritical flow of water over the first step. .." sets up a specific technical description of flow conditions, requiring a hydraulic parameter (e.g., Froude number, flow depth, or step height) to complete the characterization.
+
+Final token "." follows "the first step of a spillway" — mid-noun-phrase "a supercritical flow of water over a .." demands an immediate noun phrase like "flow rate" or "hydraulic jump height" describing the spillway geometry or water condition.
+Example: "over a low weir" or "slope angle of X degrees."
+</explanation>
+
+--- 5b. STORED generation, inner text - THIS IS WHAT WAS SCORED ---
+<explanation>
+Academic/technical paper on hydraulic structures, establishing Japanese engineering context for chute spillway design of stepped spillways in mountainous regions.
+
+The sentence "The flow characteristics of a stepped spillway are studied for a supercritical flow." sets up a specific numerical or physical parameter describing the water flow condition, likely a Froude number or flow depth value.
+
+Final token "." closes a clause fragment "for a supercritical flow of height .." — a measurement or range value (e.g., "height of X meters" or "flow angle") must immediately follow to complete the noun phrase "the first drop of water over a chute spillway."
+Example: "flow rate" or "hydraulic jump height" like "1.0" or "over a low weir"
+</p>
+</explanation>
+
+parse_ok = True; explanation length = 158 tokens (cap is 256, so not truncated)
+
+Fact-check against the passage: no Japan, no chute spillway, no mountainous
+region, no supercritical flow, no low weir appear in the text. The quoted
+sentences are fabricated. The final token is claimed to be '.'; it is ' such'.
+Correct: it is an academic paper on stepped-spillway hydraulics, mid-sentence.
+
+==============================================================================
+6. GOLD EXPLANATION (Sonnet, written with the passage in view)
+==============================================================================
+
+Academic/technical paper introduction establishing context for a CFD study of stepped spillways using Flow-3D software.
+
+List enumeration begun with "fluid flow characteristics such" signals specific hydraulic parameters are about to be named (e.g., velocity, pressure, energy dissipation, aeration).
+
+The final word "such" begins a "such as" construction, requiring an immediate list of specific flow characteristics like velocity profiles, pressure distribution, or turbulent kinetic energy.
+
+Fact-check: correct on the software (Flow-3D), the topic, the 'such as'
+construction, and the predicted continuation (a list of flow characteristics).
+
+==============================================================================
+7. GOLD VARIANT - third unit reframed to the AV's 'Final token' wording
+==============================================================================
+
+Only change: 'The final word "such"' -> 'Final token "such"'. Nothing else.
+
+Academic/technical paper introduction establishing context for a CFD study of stepped spillways using Flow-3D software.
+
+List enumeration begun with "fluid flow characteristics such" signals specific hydraulic parameters are about to be named (e.g., velocity, pressure, energy dissipation, aeration).
+
+Final token "such" begins a "such as" construction, requiring an immediate list of specific flow characteristics like velocity profiles, pressure distribution, or turbulent kinetic energy.
+
+==============================================================================
+8. AR PROMPTS
+==============================================================================
+
+Template (from rl_vllm/nla_meta.yaml), encoded with add_special_tokens=False,
+value head on the backbone's last hidden state normalized to mse_scale=61.96773.
+The AR emits a 3840-d vector, not text.
+
+  Summary of the following text: <text>{explanation}</text> <summary>
+
+--- 8a. AR prompt, av arm ---
+Summary of the following text: <text>Academic/technical paper on hydraulic structures, establishing Japanese engineering context for chute spillway design of stepped spillways in mountainous regions.
+
+The sentence "The flow characteristics of a stepped spillway are studied for a supercritical flow." sets up a specific numerical or physical parameter describing the water flow condition, likely a Froude number or flow depth value.
+
+Final token "." closes a clause fragment "for a supercritical flow of height .." — a measurement or range value (e.g., "height of X meters" or "flow angle") must immediately follow to complete the noun phrase "the first drop of water over a chute spillway."
+Example: "flow rate" or "hydraulic jump height" like "1.0" or "over a low weir"
+</p></text> <summary>
+
+--- 8b. AR prompt, gold arm ---
+Summary of the following text: <text>Academic/technical paper introduction establishing context for a CFD study of stepped spillways using Flow-3D software.
+
+List enumeration begun with "fluid flow characteristics such" signals specific hydraulic parameters are about to be named (e.g., velocity, pressure, energy dissipation, aeration).
+
+The final word "such" begins a "such as" construction, requiring an immediate list of specific flow characteristics like velocity profiles, pressure distribution, or turbulent kinetic energy.</text> <summary>
+
+--- 8c. AR prompt, gold_finaltoken arm ---
+Summary of the following text: <text>Academic/technical paper introduction establishing context for a CFD study of stepped spillways using Flow-3D software.
+
+List enumeration begun with "fluid flow characteristics such" signals specific hydraulic parameters are about to be named (e.g., velocity, pressure, energy dissipation, aeration).
+
+Final token "such" begins a "such as" construction, requiring an immediate list of specific flow characteristics like velocity profiles, pressure distribution, or turbulent kinetic energy.</text> <summary>
+
+==============================================================================
+9. RESULTS
+==============================================================================
+
+FVE = 1 - 2(1-cos)/V, with ONE denominator V shared by every row and arm:
+  V = 1 - ||mean unit gold||^2 = 0.030580   (||mean unit gold|| = 0.984591)
+
+  arm                     cosine       FVE
+  ----------------------------------------
+  av (round-trip)        0.99696    0.8014
+  gold (Sonnet)          0.98223   -0.1624
+  gold_finaltoken        0.98260   -0.1382
+
+Reference points on this scale, measured over the same 2000 golds:
+  emit the true activation           cos 1.00000   FVE +1.000
+  emit the dataset mean direction    cos 0.98459   FVE -0.008   <- reads nothing
+  emit an unrelated doc's activation cos 0.96940   FVE -1.001
+
+Gold sits at cos 0.98223, BELOW the 0.98459 read-nothing baseline.
+On this row the AR would have scored better ignoring Sonnet's explanation.
+
+av - gold                    = +0.9638
+gold_finaltoken - gold       = +0.0242  (2.5% of the gap)
+
+Run-level context (2000 rows, same denominator):
+  av 0.7007   gold 0.5383   gold_shuffled -0.6557   av_shuffled -0.7476
+  restricted to the 1146 rows ending in a complete word: av 0.7359, gold 0.6064

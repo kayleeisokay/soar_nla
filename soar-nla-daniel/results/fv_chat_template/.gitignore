@@ -1,0 +1,4 @@
+# Downloaded task files and the regenerated sampling plan (see fetch_data/prepare).
+datasets/
+sampling_manifest.json
+rerun/

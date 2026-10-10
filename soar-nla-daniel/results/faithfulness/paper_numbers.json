@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "claim": "FVE SFT Sonnet",
+      "paper": 60.8,
+      "recomputed": 60.792917013168335,
+      "match": true
+    },
+    {
+      "claim": "FVE SFT AV",
+      "paper": 48.2,
+      "recomputed": 48.22325110435486,
+      "match": true
+    },
+    {
+      "claim": "FVE RL AV",
+      "paper": 70.1,
+      "recomputed": 70.06298899650574,
+      "match": true
+    },
+    {
+      "claim": "FVE RL Sonnet",
+      "paper": 53.8,
+      "recomputed": 53.82671356201172,
+      "match": true
+    },
+    {
+      "claim": "FVE RL random AV",
+      "paper": -74.8,
+      "recomputed": -74.77213144302368,
+      "match": true
+    },
+    {
+      "claim": "FVE RL random Sonnet",
+      "paper": -65.6,
+      "recomputed": -65.58045148849487,
+      "match": true
+    },
+    {
+      "claim": "judge custom_sonnet Supported (n=4267)",
+      "paper": 73.1,
+      "recomputed": 73.09585188657137,
+      "match": true
+    },
+    {
+      "claim": "judge custom_sonnet Unsupported (n=4267)",
+      "paper": 26.6,
+      "recomputed": 26.64635575345676,
+      "match": true
+    },
+    {
+      "claim": "judge custom_sonnet Illegible (n=4267)",
+      "paper": 0.3,
+      "recomputed": 0.2577923599718772,
+      "match": true
+    },
+    {
+      "claim": "judge custom_av Supported (n=4331)",
+      "paper": 6.3,
+      "recomputed": 6.280304779496652,
+      "match": true
+    },
+    {
+      "claim": "judge custom_av Unsupported (n=4331)",
+      "paper": 93.3,
+      "recomputed": 93.32717617178481,
+      "match": true
+    },
+    {
+      "claim": "judge custom_av Illegible (n=4331)",
+      "paper": 0.4,
+      "recomputed": 0.39251904871854076,
+      "match": true
+    },
+    {
+      "claim": "judge alpaca_av Supported (n=3298)",
+      "paper": 17.5,
+      "recomputed": 17.495451788963006,
+      "match": true
+    },
+    {
+      "claim": "judge alpaca_gcg_beta_0.01 Supported (n=3298)",
+      "paper": 14.3,
+      "recomputed": 14.311704063068527,
+      "match": true
+    }
+  ]
+}

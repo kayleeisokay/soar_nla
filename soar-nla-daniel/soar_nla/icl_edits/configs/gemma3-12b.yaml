@@ -1,0 +1,9 @@
+# Gemma-3-12B-it with the released layer-32 NLA pair (48 decoder layers). Main results.
+# Revisions are pinned in soar_nla.hub (GEMMA3_12B, KITFT_L32_AV, KITFT_L32_AR).
+name: gemma3-12b
+target: google/gemma-3-12b-it
+av: kitft/nla-gemma3-12b-L32-av
+ar: kitft/nla-gemma3-12b-L32-ar
+layer: 32
+n_layers: 48
+sweep_layers: [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 47]

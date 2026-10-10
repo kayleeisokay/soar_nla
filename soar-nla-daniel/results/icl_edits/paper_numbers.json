@@ -1,0 +1,1007 @@
+[
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, final token: query-and-answer substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "substitute_only"
+  ],
+  "value": 0.635,
+  "paper": "64%",
+  "matches": true
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, final token: final-paragraph rewrite",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "rewrite_only"
+  ],
+  "value": 0.46,
+  "paper": "46%",
+  "matches": true
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, final token: combined edit",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "edited"
+  ],
+  "value": 0.7866666666666666,
+  "paper": "79%",
+  "matches": true
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, final token: donor",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "donor"
+  ],
+  "value": 0.805,
+  "paper": "81%",
+  "matches": true
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, final token: Capitalize combined edit (\"remains weak\")",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "edited",
+   "capitalize"
+  ],
+  "value": 0.31,
+  "paper": null,
+  "matches": null
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, final token: Capitalize donor (\"remains weak\")",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "donor",
+   "capitalize"
+  ],
+  "value": 0.28,
+  "paper": null,
+  "matches": null
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, four tokens: query-and-answer substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "substitute_only"
+  ],
+  "value": 0.9766666666666667,
+  "paper": "98%",
+  "matches": true
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, four tokens: combined edit",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "edited"
+  ],
+  "value": 0.9766666666666667,
+  "paper": "98%",
+  "matches": true
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, four tokens: final-unit rewrite",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "rewrite_only"
+  ],
+  "value": 0.585,
+  "paper": "59%",
+  "matches": true
+ },
+ {
+  "section": "ICL edits",
+  "claim": "raw L32, four tokens: donor",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "donor"
+  ],
+  "value": 0.97,
+  "paper": "97%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: donor patching",
+  "claim": "query token, layers 0-24",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "sweep_range",
+   "query",
+   [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+   ]
+  ],
+  "value": [
+   0.9444444444444444,
+   0.9833333333333333
+  ],
+  "paper": "94-98%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: donor patching",
+  "claim": "query token, layer 28",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "sweep",
+   "query",
+   28
+  ],
+  "value": 0.4722222222222222,
+  "paper": "47%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: donor patching",
+  "claim": "query token, layer 32",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "sweep",
+   "query",
+   32
+  ],
+  "value": 0.06666666666666667,
+  "paper": "7%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: donor patching",
+  "claim": "final ':' token, layers 0-24 (\"no effect\")",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "sweep_range",
+   "last1",
+   [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+   ]
+  ],
+  "value": [
+   0.0,
+   0.0
+  ],
+  "paper": "0-0%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: donor patching",
+  "claim": "final ':' token, layer 28",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "sweep",
+   "last1",
+   28
+  ],
+  "value": 0.38333333333333336,
+  "paper": "38%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: donor patching",
+  "claim": "final ':' token, layer 32",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "sweep",
+   "last1",
+   32
+  ],
+  "value": 0.7833333333333333,
+  "paper": "78%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: donor patching",
+  "claim": "final ':' token, layer 40",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "sweep",
+   "last1",
+   40
+  ],
+  "value": 0.9777777777777777,
+  "paper": "98%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: donor patching",
+  "claim": "last four tokens, layers 0-40",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "sweep_range",
+   "last4",
+   [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40
+   ]
+  ],
+  "value": [
+   0.9444444444444444,
+   0.9833333333333333
+  ],
+  "paper": "94-98%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, query token: substitution",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "query",
+   "substitute_only"
+  ],
+  "value": 0.96,
+  "paper": "96%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, query token: donor",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "query",
+   "donor"
+  ],
+  "value": 0.97,
+  "paper": "97%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, query token: combined edit",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "query",
+   "edited"
+  ],
+  "value": 0.8816666666666667,
+  "paper": "88%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, query token: rewrite only",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "query",
+   "rewrite_only"
+  ],
+  "value": 0.19333333333333333,
+  "paper": "19%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, four tokens: substitution",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "substitute_only"
+  ],
+  "value": 0.9216666666666666,
+  "paper": "92%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, four tokens: combined edit",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "edited"
+  ],
+  "value": 0.81,
+  "paper": "81%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, four tokens: rewrite only",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "rewrite_only"
+  ],
+  "value": 0.165,
+  "paper": "17%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, four tokens: donor",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "donor"
+  ],
+  "value": 0.9766666666666667,
+  "paper": null,
+  "matches": null
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L24, final token: combined edit (\"nearly ineffective\")",
+  "config": "gemma3-12b-custom-L24",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "edited"
+  ],
+  "value": 0.008333333333333333,
+  "paper": null,
+  "matches": null
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, query token: any edit (\"no target answers\")",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "max_rate",
+   [
+    "query"
+   ],
+   [
+    "substitute_only",
+    "rewrite_only",
+    "edited"
+   ]
+  ],
+  "value": 0.0,
+  "paper": "0%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, final token: substitution",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "substitute_only"
+  ],
+  "value": 0.695,
+  "paper": "70%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, final token: rewrite only",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "rewrite_only"
+  ],
+  "value": 0.5833333333333334,
+  "paper": "58%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, final token: combined edit",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "edited"
+  ],
+  "value": 0.6966666666666667,
+  "paper": "70%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, final token: donor",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "donor"
+  ],
+  "value": 0.9733333333333334,
+  "paper": "97%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, four tokens: substitution",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "substitute_only"
+  ],
+  "value": 0.87,
+  "paper": "87%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, four tokens: rewrite only",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "rewrite_only"
+  ],
+  "value": 0.8733333333333333,
+  "paper": "87%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, four tokens: combined edit",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "edited"
+  ],
+  "value": 0.92,
+  "paper": "92%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, four tokens: donor",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "donor"
+  ],
+  "value": 0.975,
+  "paper": "98%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, final token: Capitalize combined edit",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "edited",
+   "capitalize"
+  ],
+  "value": 0.4,
+  "paper": "40%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, final token: Capitalize donor",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "donor",
+   "capitalize"
+  ],
+  "value": 1.0,
+  "paper": "100%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: other layers",
+  "claim": "L40, four tokens: Capitalize combined edit",
+  "config": "gemma3-12b-custom-L40",
+  "experiment": "icl_redirect",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "edited",
+   "capitalize"
+  ],
+  "value": 0.92,
+  "paper": "92%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: chat template",
+  "claim": "chat L32, final token: combined edit",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last1",
+   "edited"
+  ],
+  "value": 0.7166666666666667,
+  "paper": "72%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: chat template",
+  "claim": "chat L32, final token: donor",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last1",
+   "donor"
+  ],
+  "value": 0.08666666666666667,
+  "paper": "8.7%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: chat template",
+  "claim": "chat L32, final token: substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last1",
+   "substitute_only"
+  ],
+  "value": 0.475,
+  "paper": "48%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: chat template",
+  "claim": "chat L32, four tokens: combined edit",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last4",
+   "edited"
+  ],
+  "value": 0.9233333333333333,
+  "paper": "92%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: chat template",
+  "claim": "chat L32, four tokens: donor",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last4",
+   "donor"
+  ],
+  "value": 0.835,
+  "paper": "84%",
+  "matches": true
+ },
+ {
+  "section": "Appendix: chat template",
+  "claim": "chat L32, four tokens: substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_redirect",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last4",
+   "substitute_only"
+  ],
+  "value": 0.7933333333333333,
+  "paper": "79%",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, final token: task-and-answer substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "answer+task"
+  ],
+  "value": 0.44,
+  "paper": "0.440",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, final token: combined edit",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "edited"
+  ],
+  "value": 0.8466666666666667,
+  "paper": "0.847",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, final token: donor",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "donor"
+  ],
+  "value": 0.84,
+  "paper": "0.840",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, four tokens: task-and-answer substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "answer+task"
+  ],
+  "value": 0.47,
+  "paper": "0.470",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, four tokens: combined edit",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "edited"
+  ],
+  "value": 0.8766666666666667,
+  "paper": "0.877",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, four tokens: donor",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "donor"
+  ],
+  "value": 0.8966666666666666,
+  "paper": "0.897",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, final token: answer-only substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "answer_only"
+  ],
+  "value": 0.056666666666666664,
+  "paper": "0.057",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, four tokens: answer-only substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "answer_only"
+  ],
+  "value": 0.056666666666666664,
+  "paper": "0.057",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, final token: task-only substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last1",
+   "task_only"
+  ],
+  "value": 0.0033333333333333335,
+  "paper": "0.003",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32, four tokens: task-only substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "rate",
+   "last4",
+   "task_only"
+  ],
+  "value": 0.0033333333333333335,
+  "paper": "0.003",
+  "matches": true
+ },
+ {
+  "section": "Task switching",
+  "claim": "raw L32: round-trip and no-op controls, both spans",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "raw",
+  "metric": [
+   "max_rate",
+   [
+    "last1",
+    "last4"
+   ],
+   [
+    "roundtrip",
+    "noop"
+   ]
+  ],
+  "value": 0.0,
+  "paper": "0.000",
+  "matches": true
+ },
+ {
+  "section": "Task switching appendix: chat",
+  "claim": "chat L32, final token: task-and-answer substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last1",
+   "answer+task"
+  ],
+  "value": 0.4633333333333333,
+  "paper": "0.463",
+  "matches": true
+ },
+ {
+  "section": "Task switching appendix: chat",
+  "claim": "chat L32, final token: combined edit",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last1",
+   "edited"
+  ],
+  "value": 0.95,
+  "paper": "0.950",
+  "matches": true
+ },
+ {
+  "section": "Task switching appendix: chat",
+  "claim": "chat L32, final token: donor",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last1",
+   "donor"
+  ],
+  "value": 0.5166666666666667,
+  "paper": "0.517",
+  "matches": true
+ },
+ {
+  "section": "Task switching appendix: chat",
+  "claim": "chat L32, four tokens: task-and-answer substitution",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last4",
+   "answer+task"
+  ],
+  "value": 0.5433333333333333,
+  "paper": "0.543",
+  "matches": true
+ },
+ {
+  "section": "Task switching appendix: chat",
+  "claim": "chat L32, four tokens: combined edit",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last4",
+   "edited"
+  ],
+  "value": 0.9833333333333333,
+  "paper": "0.983",
+  "matches": true
+ },
+ {
+  "section": "Task switching appendix: chat",
+  "claim": "chat L32, four tokens: donor",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "chat",
+  "metric": [
+   "rate",
+   "last4",
+   "donor"
+  ],
+  "value": 0.7833333333333333,
+  "paper": "0.783",
+  "matches": true
+ },
+ {
+  "section": "Task switching appendix: chat",
+  "claim": "chat L32: round-trip and no-op controls, both spans",
+  "config": "gemma3-12b",
+  "experiment": "icl_switch",
+  "format": "chat",
+  "metric": [
+   "max_rate",
+   [
+    "last1",
+    "last4"
+   ],
+   [
+    "roundtrip",
+    "noop"
+   ]
+  ],
+  "value": 0.0,
+  "paper": "0.000",
+  "matches": true
+ }
+]

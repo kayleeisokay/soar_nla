@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soar-nla"
+version = "0.1.0"
+description = "Experiments on the faithfulness, fidelity and editability of natural language autoencoders"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+    "torch==2.9.1",
+    "transformers==4.57.1",
+    "accelerate",
+    "datasets==4.8.3",
+    "huggingface_hub",
+    "safetensors",
+    "peft",
+    "numpy",
+    "httpx",
+    "orjson",
+    "pyyaml",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+# LLM judges and editors (sentence-level faithfulness judge, surgical edits).
+judge = ["openai"]
+# Google IFEval instruction checkers (soar_nla/benchmarks/ifeval_lib); nltk needs the punkt and punkt_tab data.
+ifeval = ["absl-py", "langdetect", "nltk", "immutabledict"]
+# Paper figures: the side-by-side GCG composite (Pillow) and HarfBuzz shaping of the
+# Devanagari token in the GCG example (soar_nla/text_panels.py, bundled Noto font).
+figures = ["pillow", "uharfbuzz", "fonttools"]
+
+# Not pip-installable as a plain dependency; see README "Setup":
+#   sglang : 0.5.9 source checkout, patched with patches/sglang/apply_sglang_patches.sh
+#   vllm   : separate environment for vLLM prompt_embeds decoding and the Gemma-3-27B judge
+#   training/ : vendored EasyNLA trainer, `pip install -e training/`
+
+[tool.setuptools.packages.find]
+include = ["soar_nla*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.yaml", "*.txt", "*.md", "NOTICE"]
+"soar_nla.icl_edits" = ["configs/*.yaml"]
+"soar_nla.faithfulness" = ["*.json.gz"]
+"soar_nla" = ["assets/fonts/*.ttf", "assets/fonts/OFL.txt"]
+
+[tool.ruff]
+line-length = 119

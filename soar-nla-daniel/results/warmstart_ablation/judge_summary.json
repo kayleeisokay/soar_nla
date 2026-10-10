@@ -1,0 +1,203 @@
+{
+  "A": {
+    "Gender": {
+      "n": 709,
+      "correct": 462,
+      "accuracy": 0.6516220028208745,
+      "wilson95": [
+        0.6158183300179383,
+        0.6857914525761191
+      ],
+      "control_n": 709,
+      "control_correct": 240,
+      "control_accuracy": 0.3385049365303244,
+      "chance": 0.33333333333333665
+    },
+    "Occupation": {
+      "n": 874,
+      "correct": 767,
+      "accuracy": 0.8775743707093822,
+      "wilson95": [
+        0.8541758312648341,
+        0.8976682371866952
+      ],
+      "control_n": 874,
+      "control_correct": 172,
+      "control_accuracy": 0.19679633867276888,
+      "chance": 0.19999999999999843
+    },
+    "Country": {
+      "n": 501,
+      "correct": 242,
+      "accuracy": 0.48303393213572854,
+      "wilson95": [
+        0.4395716928274713,
+        0.5267543785580879
+      ],
+      "control_n": 501,
+      "control_correct": 99,
+      "control_accuracy": 0.19760479041916168,
+      "chance": 0.20000000000000176
+    },
+    "Religion": {
+      "n": 501,
+      "correct": 337,
+      "accuracy": 0.6726546906187625,
+      "wilson95": [
+        0.630386408715144,
+        0.7122953354200462
+      ],
+      "control_n": 501,
+      "control_correct": 123,
+      "control_accuracy": 0.24550898203592814,
+      "chance": 0.20000000000000176
+    },
+    "POOLED": {
+      "n": 2585,
+      "correct": 1808,
+      "accuracy": 0.6994197292069633,
+      "wilson95": [
+        0.6814588166050424,
+        0.7167888011711863
+      ],
+      "control_n": 2585,
+      "control_correct": 634,
+      "control_accuracy": 0.24526112185686655,
+      "chance": 0.23656995486782825
+    }
+  },
+  "B": {
+    "Gender": {
+      "n": 709,
+      "correct": 445,
+      "accuracy": 0.6276445698166432,
+      "wilson95": [
+        0.5914608851460551,
+        0.6624524667121979
+      ],
+      "control_n": 709,
+      "control_correct": 246,
+      "control_accuracy": 0.3469675599435825,
+      "chance": 0.33333333333333665
+    },
+    "Occupation": {
+      "n": 874,
+      "correct": 743,
+      "accuracy": 0.8501144164759725,
+      "wilson95": [
+        0.8249187554704652,
+        0.8722457443664074
+      ],
+      "control_n": 874,
+      "control_correct": 175,
+      "control_accuracy": 0.20022883295194507,
+      "chance": 0.19999999999999843
+    },
+    "Country": {
+      "n": 501,
+      "correct": 248,
+      "accuracy": 0.49500998003992014,
+      "wilson95": [
+        0.45143383873582454,
+        0.5386620646128693
+      ],
+      "control_n": 501,
+      "control_correct": 89,
+      "control_accuracy": 0.17764471057884232,
+      "chance": 0.20000000000000176
+    },
+    "Religion": {
+      "n": 501,
+      "correct": 328,
+      "accuracy": 0.654690618762475,
+      "wilson95": [
+        0.6120204267040341,
+        0.695006569486454
+      ],
+      "control_n": 501,
+      "control_correct": 107,
+      "control_accuracy": 0.21357285429141717,
+      "chance": 0.20000000000000176
+    },
+    "POOLED": {
+      "n": 2585,
+      "correct": 1764,
+      "accuracy": 0.6823984526112186,
+      "wilson95": [
+        0.664192305857246,
+        0.7000632747082084
+      ],
+      "control_n": 2585,
+      "control_correct": 617,
+      "control_accuracy": 0.23868471953578335,
+      "chance": 0.23656995486782825
+    }
+  },
+  "C": {
+    "Gender": {
+      "n": 709,
+      "correct": 358,
+      "accuracy": 0.5049365303244006,
+      "wilson95": [
+        0.4682063401821441,
+        0.5416135132046391
+      ],
+      "control_n": 709,
+      "control_correct": 256,
+      "control_accuracy": 0.3610719322990127,
+      "chance": 0.33333333333333665
+    },
+    "Occupation": {
+      "n": 874,
+      "correct": 691,
+      "accuracy": 0.7906178489702517,
+      "wilson95": [
+        0.7624006020702554,
+        0.8162914991015278
+      ],
+      "control_n": 874,
+      "control_correct": 186,
+      "control_accuracy": 0.2128146453089245,
+      "chance": 0.19999999999999843
+    },
+    "Country": {
+      "n": 501,
+      "correct": 207,
+      "accuracy": 0.41317365269461076,
+      "wilson95": [
+        0.3708756732710594,
+        0.45679304499621476
+      ],
+      "control_n": 501,
+      "control_correct": 98,
+      "control_accuracy": 0.19560878243512975,
+      "chance": 0.20000000000000176
+    },
+    "Religion": {
+      "n": 501,
+      "correct": 317,
+      "accuracy": 0.6327345309381237,
+      "wilson95": [
+        0.5896610671015704,
+        0.673787903823171
+      ],
+      "control_n": 501,
+      "control_correct": 118,
+      "control_accuracy": 0.23552894211576847,
+      "chance": 0.20000000000000176
+    },
+    "POOLED": {
+      "n": 2585,
+      "correct": 1573,
+      "accuracy": 0.6085106382978723,
+      "wilson95": [
+        0.5895472168601834,
+        0.6271520203585015
+      ],
+      "control_n": 2585,
+      "control_correct": 658,
+      "control_accuracy": 0.2545454545454545,
+      "chance": 0.23656995486782825
+    }
+  }
+}

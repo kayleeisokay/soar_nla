@@ -1,0 +1,9 @@
+arm,label,n,reference_accuracy,raw_accuracy,chat_accuracy,chat_minus_raw,paired_bootstrap_95_low,paired_bootstrap_95_high
+baseline,Baseline,50,0.38,0.38,0.4,0.020000000000000018,-0.04,0.08
+identity,Identity,50,nan,0.38,0.4,0.020000000000000018,-0.04,0.1
+nla,NLA round-trip,50,0.34,0.34,0.38,0.03999999999999998,0.0,0.1
+para_medium,Medium paraphrase,50,0.3,0.34,0.38,0.03999999999999998,-0.06,0.14
+para_heavy,Heavy paraphrase,50,0.28,0.26,0.34,0.08000000000000002,-0.02,0.2
+random_vec,Random vector,50,0.02,0.02,0.0,-0.02,-0.06,0.0
+mismatch_cross_task,Cross-task native swap,50,0.02,0.04,0.1,0.060000000000000005,0.0,0.14
+mismatch_same_task,Same-task native swap,50,0.0,0.0,0.16,0.16,0.06,0.26

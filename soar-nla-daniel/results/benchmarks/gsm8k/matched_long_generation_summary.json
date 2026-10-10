@@ -1,0 +1,60 @@
+{
+  "model": "google/gemma-3-12b-it",
+  "dataset": "openai/gsm8k main test",
+  "n": 1319,
+  "decoding": {
+    "temperature": 0.0,
+    "max_new_tokens": 4096
+  },
+  "conditions": {
+    "clean": {
+      "correct": 1242,
+      "accuracy": 0.9416224412433661,
+      "generation_cap_hits": 3,
+      "generation_cap_hit_indices": [
+        298,
+        901,
+        1249
+      ],
+      "max_generated_tokens_including_eos": 4096
+    },
+    "identity_replay": {
+      "correct": 1244,
+      "accuracy": 0.9431387414708112,
+      "generation_cap_hits": 2,
+      "generation_cap_hit_indices": [
+        857,
+        1249
+      ],
+      "max_generated_tokens_including_eos": 4096
+    },
+    "nla_roundtrip": {
+      "correct": 1142,
+      "accuracy": 0.8658074298711145,
+      "generation_cap_hits": 12,
+      "generation_cap_hit_indices": [
+        544,
+        546,
+        561,
+        580,
+        675,
+        721,
+        958,
+        960,
+        1046,
+        1147,
+        1152,
+        1188
+      ],
+      "max_generated_tokens_including_eos": 4096
+    }
+  },
+  "paired_clean_vs_nla": {
+    "both_correct": 1126,
+    "clean_only_correct": 116,
+    "nla_only_correct": 16,
+    "both_incorrect": 61,
+    "accuracy_difference_points": -7.58150113722517,
+    "two_sided_exact_mcnemar_p": 6.691287683282994e-20
+  }
+}
